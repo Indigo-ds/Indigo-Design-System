@@ -3,7 +3,7 @@
 1. Is there a separate DSS guidelines for portal?
    No.
 
-   There is only one DSS guideline.
+   There is only one set of DSS guidelines.
 
 2. Is there a template for e-service portal from GovTech like ISOMER?
 
@@ -15,4 +15,14 @@
 
    These are required if is a gov.sg digital service.
 
-   It provides the components and guides building e-services and should be present in all .gov.sg websites as stated in Digital Service Standards.
+   It also provides the components and guides for building e-services and should be present in all .gov.sg websites as stated in Digital Service Standards.
+
+4. Are we suppose to use the Design System components instead of our common resources?
+
+   Yes, you are encouraged to leverage on iDS to deliver the best user experience.
+
+   ```
+   As stated in DSS under clause 3.2/G15:
+
+   Agencies should consider using the standard UI components (e.g. navigation panel, footer) in Design System for web-based digital services. Only a .gov.sg digital service is allowed to use the masthead components.
+   ```
