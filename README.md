@@ -19,10 +19,10 @@ The included source files are in the SGDS folder.
 ├── fonts/  
 ├── js/
 
-## CSS
+### CSS
 
 ```html
-<link rel="stylesheet" href="css/sgds.css" />
+<link rel="stylesheet" href="./css/sgds.css" />
 ```
 
 ## Documentation (Work-in-progress)
