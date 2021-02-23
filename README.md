@@ -15,7 +15,7 @@ It provides a set of DSS guidelines and implementation guide for Sentiments as w
 
 Within the SGDS folder, you will find the following folders:
 
-SGDS/
+SGDS/  
 ├── css/  
 ├── fonts/  
 ├── js/
