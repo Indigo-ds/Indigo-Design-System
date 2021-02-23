@@ -1,10 +1,10 @@
 # Indigo Design System
 
-Indigo Design System is the official resource for building the next digital services.
-
-It provides a set of guidelines based on Digital Service Standards (DSS), implementation guide for Sentiments as well as the components that work as the foundation for application development.
+Indigo Design System includes a library UI components for the next digital services. This repository is for the design system code itself.
 
 The design system is built on top of Singapore Design System (SGDS).
+
+It provides a set of DSS guidelines and implementation guide for Sentiments as well as the components that work as the foundation for application development.
 
 ## What's inside
 
@@ -13,8 +13,9 @@ The design system is built on top of Singapore Design System (SGDS).
 
 ## Usage
 
-The included source files are in the SGDS folder.
+Within the SGDS folder, you will find the following folders:
 
+SGDS/
 ├── css/  
 ├── fonts/  
 ├── js/
