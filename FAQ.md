@@ -22,4 +22,9 @@
    Yes, you are encouraged to leverage on iDS to deliver the best user experience.
 
    > As stated in DSS under clause 3.2/G15:
+   >
    > Agencies should consider using the standard UI components (e.g. navigation panel, footer) in Design System for web-based digital services. Only a .gov.sg digital service is allowed to use the masthead components.
+
+5.
+
+6.
