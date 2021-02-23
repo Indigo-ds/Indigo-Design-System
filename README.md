@@ -15,17 +15,14 @@ The design system is built on top of Singapore Design System (SGDS).
 
 The included source files are in the SGDS folder.
 
-├── css/
-├── fonts/
+├── css/  
+├── fonts/  
 ├── js/
 
-```html
-
 ## CSS
-<link
-        rel="stylesheet"
-        href="css/sgds.css"
-    /></code>
+
+```html
+<link rel="stylesheet" href="css/sgds.css" />
 ```
 
 ## Documentation (Work-in-progress)
