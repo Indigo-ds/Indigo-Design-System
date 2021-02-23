@@ -6,6 +6,11 @@ It provides a set of guidelines based on Digital Service Standards (DSS), implem
 
 The design system is built on top of Singapore Design System (SGDS).
 
+## What's inside
+
+- SGDS setup
+- Singpass, corppass and myInfo images
+
 ## Documentation (Work-in-progress)
 
 ![Image of Documentation Site](preview.png)
