@@ -5,9 +5,11 @@
 WOGAA is a whole of government analytics platform.
 
 1.  **Setting up your WOGAA account**
+
     To set up your WOGAA account, email your new e-service to DSM team for the new code.
 
 2.  **Verification**
+
     After setting up, your e-service is under "Pending Implementation and Verification"
 
     To complete the verification process, write to WOGAA's Support at wog.aa.support@ncs.com.sg. Do make sure that you've registered the www version of your domain and include the following details in your email:
@@ -24,16 +26,16 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
 
 ### Digital Service Standards (DSS)
 
-1. Is there a separate DSS guidelines for portal?
+1. **Is there a separate DSS guidelines for portal?**  
    No.
 
    There is only one set of DSS guidelines.
 
-2. Is there a template for e-service portal from GovTech like ISOMER?
+2. **Is there a template for e-service portal from GovTech like ISOMER?**
 
    No. There are no templates available for portal. Everything is based on the design system.
 
-3. What is Indigo Design System (iDS)?
+3. **What is Indigo Design System (iDS)?**
 
    iDS provides Official Government Banner and the default layout for the footer which you can use.
 
@@ -41,7 +43,7 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
 
    It also provides the components and guides for building e-services and should be present in all .gov.sg websites as stated in Digital Service Standards.
 
-4. Are we suppose to use the design system components instead of our common resources?
+4. **Are we suppose to use the design system components instead of our common resources?**
 
    Yes, you are encouraged to leverage on iDS to deliver the best user experience.
 
@@ -51,28 +53,28 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
 
 ### Forms
 
-1.  Can we use FormSG for digital services?  
+1.  **Can we use FormSG for digital services?**  
     Yes. You are encouraged to use FormSG which has Singpass authentication and file upload feature.
 
 ### Checklists
 
-1. What are the checklists to audit the e-services?
+1. **What are the checklists to audit the e-services?**
 
-- Transactional Service UC Checklist - For Agencies
-- Web Content Accessibility Guidelines (WCAG) 2.0​
+   - Transactional Service UC Checklist - For Agencies
+   - Web Content Accessibility Guidelines (WCAG) 2.0​
 
 ### Changes to take note
 
-1. Is it mandatory to include font size adjuster on the website?
+1. **Is it mandatory to include font size adjuster on the website?**
 
    Since DSS, this function seems to loose its role as most browser supports zooming function.
 
    Since most users are mobile users, this function is no longer required.
 
-2. In regards to stating the file type and size in a link, is there any exception not to include the file size and type?
+2. **In regards to stating the file type and size in a link, is there any exception not to include the file size and type?**
 
    If the file is dynamically generated, you won’t need to indicate. For the file type, as per DSS you need to indicate.
 
 ### Contact
 
-> For more information on DSS, please contact DCM Team.
+> For more information and questions on DSS, please contact DCM Team.
