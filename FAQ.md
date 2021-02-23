@@ -6,9 +6,14 @@ WOGAA is a whole of government analytics platform.
 
 1.  **Setting up your WOGAA account**
 
-    To set up your WOGAA account, email your new e-service to DSM team for the new code.
+    To set up your WOGAA account for your digital service, email your new e-service and description of the digital service to the DSM team.
 
-2.  **Verification**
+2.  **Implement Web Analytics for Transactional Service(s)**
+
+    - UAT: <https:// assets.dcube.cloud/scripts/wogaa.js>
+    - PRD: <https://assets.wogaa.sg/scripts/wogaa.js>
+
+3.  **Verification**
 
     After setting up, your e-service is under "Pending Implementation and Verification"
 
@@ -18,24 +23,33 @@ WOGAA is a whole of government analytics platform.
     - Service URL: <url of your e-service>
     - Environment (staging/production)
 
+---
+
 ### Setting up Sentiments
 
-Sentiments is a tool for you to quickly gather feedback about your site from your visitors.
+Sentiments is a tool for you to quickly gather feedback about your digital service from your visitors.
 
-1.
+In order to start using Sentiments on your services, you should ensure that you have fulfilled the following prerequisites:
+
+- Transactional Service should be registered on WOGAA
+- Transactional Service should have completed implementation for the Start and End Trigger Codes of your service(s)
+
+[Implement and Verify Event Code](https://docs.wogaa.sg/web-analytics/web-implement-ts/#implement-and-verify-event-code)
+
+---
 
 ### Digital Service Standards (DSS)
 
 1. **Is there a separate DSS guidelines for portal?**  
-   No.
+   No. There is only one set of DSS guidelines.
 
-   There is only one set of DSS guidelines.
-
-2. **Is there a template for e-service portal from GovTech like ISOMER?**
+2. **Is there any template for e-service portal from GovTech like ISOMER?**
 
    No. There are no templates available for portal. Everything is based on the design system.
 
 3. **What is Indigo Design System (iDS)?**
+
+   The Indigo Design System is a collection of UI components and design patterns that were built with the best UX practices in mind. The purpose of the design system is to provide the public with a unified experience across all public-facing government digital services.
 
    iDS provides Official Government Banner and the default layout for the footer which you can use.
 
@@ -51,10 +65,14 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
    >
    > Agencies should consider using the standard UI components (e.g. navigation panel, footer) in Design System for web-based digital services. Only a .gov.sg digital service is allowed to use the masthead components.
 
+---
+
 ### Forms
 
 1.  **Can we use FormSG for digital services?**  
     Yes. You are encouraged to use FormSG which has Singpass authentication and file upload feature.
+
+---
 
 ### Checklists
 
@@ -62,6 +80,8 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
 
    - Transactional Service UC Checklist - For Agencies
    - Web Content Accessibility Guidelines (WCAG) 2.0​
+
+---
 
 ### Changes to take note
 
@@ -74,6 +94,8 @@ Sentiments is a tool for you to quickly gather feedback about your site from you
 2. **In regards to stating the file type and size in a link, is there any exception not to include the file size and type?**
 
    If the file is dynamically generated, you won’t need to indicate. For the file type, as per DSS you need to indicate.
+
+---
 
 ### Contact
 
