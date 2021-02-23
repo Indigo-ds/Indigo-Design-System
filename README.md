@@ -1,11 +1,15 @@
 # Indigo Design System
 
-Indigo Design System is a resource for building the next digital services.
+Indigo Design System is the official resource for building the next digital services.
 
-It provides the team a set of guidelines, components that work as the foundation for application development.
+It provides a set of guidelines based on Digital Service Standards (DSS), implementation guide for Sentiments as well as the components that work as the foundation for application development.
 
-The design system is built on top of Singapore Design SYstem (SGDS).
+The design system is built on top of Singapore Design System (SGDS).
 
 ## Documentation
 
-Getting Started
+Coming soon...
+
+## UI Components (Figma)
+
+Coming soon...
