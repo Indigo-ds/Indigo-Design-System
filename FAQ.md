@@ -10,7 +10,7 @@ WOGAA is a whole of government analytics platform.
 
 2.  **Implement Web Analytics for Transactional Service(s)**
 
-    - UAT: <https:// assets.dcube.cloud/scripts/wogaa.js>
+    - UAT: <https://assets.dcube.cloud/scripts/wogaa.js>
     - PRD: <https://assets.wogaa.sg/scripts/wogaa.js>
 
 3.  **Verification**
@@ -29,12 +29,13 @@ WOGAA is a whole of government analytics platform.
 
 Sentiments is a tool for you to quickly gather feedback about your digital service from your visitors.
 
-In order to start using Sentiments on your services, you should ensure that you have fulfilled the following prerequisites:
+In order to start using Sentiments on your digital services, you should ensure that you have fulfilled the following prerequisites:
 
 - Transactional Service should be registered on WOGAA
+- Transactional Service is verified by GovTech
 - Transactional Service should have completed implementation for the Start and End Trigger Codes of your service(s)
 
-[Implement and Verify Event Code](https://docs.wogaa.sg/web-analytics/web-implement-ts/#implement-and-verify-event-code)
+[Find out more on Implement and Verify Trigger Codes](https://docs.wogaa.sg/web-analytics/web-implement-ts/#implement-and-verify-event-code)
 
 ---
 
