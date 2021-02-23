@@ -6,12 +6,10 @@ It provides a set of guidelines based on Digital Service Standards (DSS), implem
 
 The design system is built on top of Singapore Design System (SGDS).
 
-## Documentation
+## Documentation (Work-in-progress)
 
 ![Image of Documentation Site](preview.png)
 
-Coming soon...
-
 ## UI Components (Figma)
 
-Coming soon...
+![Image of Figma Components](figma.png)
