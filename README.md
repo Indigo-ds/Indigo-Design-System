@@ -11,6 +11,15 @@ The design system is built on top of Singapore Design System (SGDS).
 - SGDS setup
 - Singpass, corppass and myInfo images
 
+## Usage
+
+The included source files are in the SGDS folder.
+
+<code> <link
+        rel="stylesheet"
+        href="css/sgds.css"
+    /></code>
+
 ## Documentation (Work-in-progress)
 
 ![Image of Documentation Site](preview.png)
