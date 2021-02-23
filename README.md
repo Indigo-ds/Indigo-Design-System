@@ -9,10 +9,13 @@ It provides a set of DSS guidelines and implementation guide for Sentiments as w
 ## What's inside
 
 - SGDS setup
-- Singpass, corppass and myInfo images
+- Singpass, corppass and myInfo assets
+- Payment modes assets [coming soon]
+- HTML templates [coming soon]
+- Documentation on use of components [coming soon]
+- Checklist for DSS [coming soon]
 
-## Usage
-
+**Structure**
 Within the SGDS folder, you will find the following folders:
 
 SGDS/  
@@ -20,7 +23,7 @@ SGDS/
 ├── fonts/  
 ├── js/
 
-### CSS
+**CSS**
 
 ```html
 <link rel="stylesheet" href="./css/sgds.css" />
