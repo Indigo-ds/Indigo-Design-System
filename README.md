@@ -8,6 +8,8 @@ The design system is built on top of Singapore Design System (SGDS).
 
 ## Documentation
 
+![Image of Documentation Site](preview.png)
+
 Coming soon...
 
 ## UI Components (Figma)
