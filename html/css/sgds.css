@@ -4059,25 +4059,25 @@ strong {
 }
 .sgds-footer > .top-section {
   padding: 2rem;
-  background-color: #323232;
+  background-color: #e6e6e6;
 }
 .sgds-footer .footer-link-title {
   color: #fff;
 }
 .sgds-footer a {
-  color: #b7b7b7;
+  color: #484848;
   font-size: 17px;
   padding-right: 12px;
   line-height: 20px;
 }
 .sgds-footer a:hover {
-  color: #fff;
+  color: #dc2837;
 }
 .sgds-footer a:last-child {
   padding-right: 0;
 }
 .sgds-footer p {
-  color: #b7b7b7;
+  color: #484848;
   line-height: 25px;
   font-size: 1.0625rem;
 }
