@@ -1,0 +1,1254 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="uraApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>URA</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery-ui-1.10.1.css">
+    <link rel="stylesheet" href="css/vendor/latoja.datepicker.css">
+    <link rel="stylesheet" href="css/her-style.css">
+    <link rel="stylesheet" href="css/aja-style.css">
+    <link rel="stylesheet" href="css/clean.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fileUpload.css">
+    <link rel="stylesheet" href="css/sgds.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+     <!-- WOGGA Tracking codes -->
+
+    <!-- Staging Environment -->
+    <script src="https://assets.dcube.cloud/scripts/wogaa.js" async></script>
+    <!-- Production Environment -->
+    <script src="https://assets.wogaa.sg/scripts/wogaa.js" async></script>
+
+
+</head>
+
+<body>
+    <div class="pageholder">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- SG Masthead starts from here -->
+
+     <div class="sgds-masthead">
+    <div class="sgds-container">
+        <div class="row">
+            <div class="col has-text-centered-touch">
+                <a href="https://www.gov.sg" target="_blank">
+                    <span class="sgds-icon sgds-icon-sg-crest is-size-4"></span>
+                    <span class="is-text">A Singapore Government Agency Website</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- SG Masthead finishes here -->
+
+
+
+        <!-- Header View loades here :: replace below tag with java tiles attribute-->
+        <div>
+            <header class="containerFullWidth">
+                <div class="col-sm-6 uraLogoHolder padding0  text-left">
+                    <a href="#"><!-- <img src="../img/uralogo.png" alt="URA - Urban Redevelopment Authority"> -->
+                        <img src="img/uralogo.png" alt="URA - Urban Redevelopment Authority"><br /><span class="uraLogoTagline">To make singapore a great city to live, work and play in</span></a>
+                </div>
+                <div class="col-sm-6 padding0 uraLogoHolder singaporeLogo text-right hidden-xs">
+
+                </div>
+            </header>
+        </div>
+
+
+        <!-- Header View finishes here -->
+        <!-- MenuBar starts from here   -->
+        <div class="container-fluid titleHolder">
+            <div class="containerFullWidth titleContainer">
+                <!-- page / application title will come here -->
+                <h1 class="pageTitle">Page/ Application Title</h1>
+                <div class="menuHolder">
+                    <a role="button" data-toggle="collapse" href="#menuList" aria-expanded="false" aria-controls="menuList" class="menuBtn hideOnMobile showOnDesktop">
+                        <img src="img/icons/menu-icon.png" alt="">
+                    </a>
+                    <a role="button" data-toggle="collapse" href="#menuList1" aria-expanded="false" aria-controls="menuList" class="menuBtn hideOnDesktop showOnMobile">
+                        <img src="img/icons/menu-icon.png" alt="">
+                    </a>
+                </div>
+                <ul class="menuList collapse hideOnMobile" id="menuList">
+                    <li><a href="#">TERMS AND CONDITIONS</a></li>
+                    <li><a href="#">FAQS</a></li>
+                </ul>
+            </div>
+            <ul class="menuList collapse hideOnDesktop" id="menuList1">
+                <li>
+                    <a href="#">Project <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Insert project</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Close Quarter <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Search project</a></li>
+                        <li><a href="#">Search unit</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Reports <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Search project</a></li>
+                        <li><a href="#">Search unit</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Admin <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Search project</a></li>
+                        <li><a href="#">Search unit</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">SP Data <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Search project</a></li>
+                        <li><a href="#">Search unit</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Filedwork <span><img src="img/icons/dropdown-arrow-white.png" class="whiteArrowMenu" alt="Arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Insert project</a></li>
+                        <li><a href="#">Search project</a></li>
+                        <li><a href="#">Search unit</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Terms and Conditions</a>
+                </li>
+                <li>
+                    <a href="#">FAQS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- MenuBar finishes from here  -->
+        <!-- Content starts here -->
+        <div class="containerFullWidth">
+            <div>
+                <div class="submenuSetHolder floatleft ">
+                    <ul>
+                        <li>
+                            <a href="#">Project <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Insert project</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Close Quarter <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Search project</a></li>
+                                <li><a href="#">Search unit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Reports <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Search project</a></li>
+                                <li><a href="#">Search unit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Admin <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Search project</a></li>
+                                <li><a href="#">Search unit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SP Data <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Search project</a></li>
+                                <li><a href="#">Search unit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Filedwork <span><img src="img/icons/dropdown-arrow.png" alt="Arrow"></span></a>
+                            <ul>
+                                <li><a href="#">Insert project</a></li>
+                                <li><a href="#">Search project</a></li>
+                                <li><a href="#">Search unit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="floatright">
+                    <div class="userLoginNameLogined floatright">Welcome Marvin</div>
+                </div>
+            </div>
+            <div class="clear clearfix"></div>
+            <!-- Steps Start here -->
+            <div class="stepsHolder clear clearfix floatleft mgBm1">
+                <span class="stepHeading">Step</span>
+                <ul class="stepsContainer">
+                    <li class="stepActive"><a href="#"><span>1</span></a></li>
+                    <li class=""><a href="#"><span>2</span></a></li>
+                    <li class="noMargin"><a href="#"><span>3</span></a></li>
+                    <li class="stepsBackLine"></li>
+                </ul>
+            </div>
+            <!-- Steps finishes here -->
+            <div class="mandatoryContent text-right">
+                <span class="redColor">*</span> Denotes mandatory fields.
+            </div>
+            <div class="clear clearfix"></div>
+            <!-- info panel starts from here -->
+            <div class="panel panel-default infoPanelHolder panelHolder mgTop1">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Information <span class="glyphicon floatright expClpIcon glyphicon-plus-sign"></span></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="initialPanelContent">
+                        <ol>
+                            <li>This e-service allows you to reschedule or cancel appointment.</li>
+                        </ol>
+                    </div>
+                    <div class="mainPanelContent">
+                        <ol>
+                            <li>This e-service allows you to reschedule or cancel appointment.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam molestiae ea alias laborum nulla iusto sequi qui, distinctio quibusdam numquam at temporibus, soluta quasi fugiat? Ex consequuntur commodi tenetur.</li>
+                        </ol>
+                    </div>
+                    <div class="text-right">
+                        <a href="#" class="initialPanelContent readLinkPanel">Read more</a>
+                        <a href="#" class="mainPanelContent readLinkPanel">Read less</a>
+                    </div>
+                </div>
+            </div>
+            <!-- info panel finishes here -->
+
+
+            <!-- cards starts here-->
+            <div class="panel panel-default panelHolder mgTop1 pcard">
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <label class="app_label">SH1283793284</label>
+                            <h3>PC18263G</h4>
+                            <p style="font-size:14px;"><img src="img/p_icon.png" style="padding-bottom:1px;"> Woodlands Heavy vehicle parking</p>
+                        </div>
+                        <div class="col-xs-4 paddingBtm1M">
+                            <div class="glyphicon glyphicon-ok-circle label_icon label_selected"></div>
+                            <div class="label_text label_selected">Selected</div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="block-id0">
+                    <div class="row"  style="background-color: #F4F5F5; padding-top: 15px; margin-bottom: 15px; display: flex; flex-flow: row wrap; align-content: flex-start; justify-content: flex-start">
+                    <div class="form-group ecard">
+                        <label>Application number</label>
+                        <p class="" >SH1283793284</p>
+                    </div>
+                    <div class="form-group ecard">
+                        <label>Approved transfer date</label>
+                        <p class="" >01-MAR-2018</p>
+                    </div>
+
+
+                    <div class="form-group ecard">
+                        <label>Requested transfer date</label>
+                        <p class="" >01-MAR-2018</p>
+                    </div>
+                    <div class="form-group ecard" >
+                        <label>New vehicle/new parking place</label>
+                        <p class="" >PA18263G</p>
+                    </div>
+                    <div class="form-group ecard" >
+                        <label>New season ticket effective date</label>
+                        <p class="" >01-MAR-2018</p>
+                    </div>
+                    <div class="form-group ecard" >
+                        <label>New season ticket expiry date</label>
+                        <p class="" >01-MAR-2018</p>
+                    </div>
+                    <div class="form-group ecard" >
+                        <label>Bank account information</label>
+                        <p class="" >BANK 153-8329-374</p>
+                    </div>
+                    <div class="form-group col-xs-12 ecard"  >
+                        <label>Reason for rejection</label>
+                        <p class="" >This is a very long text This is a very long text  This is a very long text This is a very long text This is a very long text This is a very long text This is a very long  </p>
+                    </div>
+                </div>
+                </div>
+                    <div class="row" style="margin:0px;"  >
+                    <a href="#block-id0"
+                        class=""
+                        data-toggle="collapse"
+                        aria-expanded="false"
+                        aria-controls="block-id">
+
+                        <span class="collapsed">
+                        Read more
+                        </span>
+                        <span class="expanded">
+                        Read Less
+                        </span>
+
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <!-- cards finishes here-->
+
+            <!-- Other states of labels starts here-->
+            <div class="panel panel-default panelHolder mgTop1 pcard">
+                <div class="panel-body">
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="glyphicon glyphicon-ok-circle label_icon label_selected"></div>
+                    <div class="label_text label_selected">Selected</div>
+                </div>
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="glyphicon glyphicon-ok-circle label_icon label_unselected"></div>
+                    <div class="label_text label_unselected">Unselected</div>
+                </div>
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="glyphicon glyphicon-exclamation-sign label_icon label_yellow"></div>
+                    <div class="label_text label_yellow">Pending</div>
+                </div>
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="glyphicon glyphicon-remove-sign label_icon label_red"></div>
+                    <div class="label_text label_red">Rejected</div>
+                </div>
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="glyphicon glyphicon-ok-sign label_icon label_green"></div>
+                    <div class="label_text label_green">Completed</div>
+                </div>
+                <div class="col-xs-4 col-sm-2 paddingBtm1M">
+                    <div class="label_icon">$80</div>
+                </div>
+                </div>
+            </div>
+            <!-- Other states of labels finishes here-->
+
+            <!-- form panel holder -->
+            <form>
+                <div class="panel panel-default panelHolder">
+                    <div class="panel-body">
+                        <div class="row formRow">
+                            <div class="col-sm-6">
+                                <label for="">Email Address : <span class="redColor">*</span></label>
+                                <input type="text" id="" class="form-control" />
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="">Existing Appointment: <span class="redColor">*</span></label>
+                                <input type="text" id="" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row formRow">
+                            <div class="col-sm-12">
+                                <label for="email">Generic Textarea : <span class="redColor">*</span></label>
+                                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row formRow btnRadioContainer" data-toggle="buttons">
+                            <div class="col-sm-12">
+                                <label>I want to : <span>*</span> (Please select one of the following)</label>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="btn btn-default btn-block active mgbottom07">
+                                    <input type="radio" name="options" id="rescheduleApp" autocomplete="off" checked> Reschedule Appointment
+                                </label>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="btn btn-default btn-block">
+                                    <input type="radio" name="options" id="cancelApp" autocomplete="off"> Cancel Appointment
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row formRow">
+                            <div class="col-sm-6">
+                                <label for="datepicker-newAppointment">New Appointment Date : <span class="redColor">*</span></label>
+                                <div class="inputGroupCustom datepickerContainer">
+                                    <input type="text" class="datepicker-newAppointment form-control" />
+                                    <i class="glyphicon glyphicon-calendar"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="timeSelect">Time : <span class="redColor">*</span></label>
+                                <select id="timeSelect" class="form-control">
+                                    <option>02:30 PM to 03:00 PM</option>
+                                    <option selected="">03:15 PM to 03:45 PM</option>
+                                    <option>04:00 PM to 04:30 PM</option>
+                                    <option>04:45 PM to 05:15 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="smallText text-center">
+                    By clicking "Continue" you are agreeing to <a href="#">URA Terms and Conditions</a>
+                </p>
+                <p class="text-center mgTop1 mgBtm1">
+                    <a href="#" class="btn btn-default btn-lg btn-border mgRight05">Rate this e-Service</a>
+                    <a href="#" class="btn btn-default btn-lg mgRight05">Close</a>
+                    <a href="#" class="btn btn-primary btn-lg">Continue</a>
+                </p>
+            </form>
+            <form>
+                <!-- accordian form component starts from here -->
+                <div class="panel-group  mgTop1" id="accordion2" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default customDefaultPanel">
+                        <div class="panel-heading active" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                Your Particulars
+                                <a role="button">
+                                    <span class="glyphicon pull-right glyphicon-minus-sign"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                            <div class="panel-body padding0ForForm">
+                                <div class="">
+                                    <div class="form-group col-xs-12 col-sm-6 ">
+                                        <label for="">Applicant Name :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-6 ">
+                                        <label for="">Applicant Reference No :</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-xs-12 col-sm-12">
+                                        <label for="">Applicant Address :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="form-group col-xs-12 col-sm-6 ">
+                                        <label for="">Telephone No :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-6 ">
+                                        <label for="">Fax No :</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <label for="">&nbsp;</label>
+                                        <div class="form-group navbar-left" role="search">
+                                            <div class="type-switcher">
+                                                <input type="radio" name="usertype" value="existing_user" id="existing1" checked="checked">
+                                                <label for="existing1" id="existing-label">
+                                                    <span class="text">MK</span>
+                                                </label>
+                                                <br>
+                                                <input type="radio" name="usertype" value="new_user" id="new1">
+                                                <label for="new1" id="new-label" class="last">
+                                                    <span class="text">TS</span>
+                                                </label>
+                                                <div class="floatleft">
+                                                    <input type="text" class="form-control mgLeft05 " placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <label for="">&nbsp;</label>
+                                        <div class="form-group navbar-left" role="search">
+                                            <div class="type-switcher">
+                                                <input type="radio" name="usertype1" value="existing_user" id="existing" checked="checked">
+                                                <label for="existing" id="existing-label">
+                                                    <span class="text">MK</span>
+                                                </label>
+                                                <br>
+                                                <input type="radio" name="usertype1" value="new_user" id="new">
+                                                <label for="new" id="new-label" class="last">
+                                                    <span class="text">TS</span>
+                                                </label>
+                                                <div class="floatleft">
+                                                    <input type="text" class="form-control mgLeft05 " placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="margin-top1">
+                                    <div class="form-group col-xs-12 col-sm-12">
+                                        <label for="" class="widthFull">
+                                            Email Address :<span class="redColor">*</span>
+                                            <a href="https://www.inlis.gov.sg/LINNS/LINNS-LP.aspx?strService=LINNS&amp;strProduct=LP" target="blank">
+                                                <span data-toggle="tooltip" data-placement="left" title="Help" class="glyphicon glyphicon-info-sign pull-right orangeColor toolTipSize"></span>
+                                            </a>
+                                        </label>
+                                        <input type="text" class="form-control widthFull" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- accordian form component finishes from here -->
+
+
+
+                <!-- Payment module  component starts from here -->
+                <div class="panel-group mgTop1" id="accordion45" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default customDefaultPanel">
+                        <div class="panel-heading active" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion45" href="#collapseOne45" aria-expanded="true" aria-controls="collapseOne45">
+                            <h4 class="panel-title" style=""> Select Payment Mode
+                                    <a role="button">
+
+                                    <span class="glyphicon pull-right glyphicon-minus-sign"></span></a>
+                                  </h4>
+                        </div>
+                        <div id="collapseOne45" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                            <div class="panel-body ">
+                                <div class="clearfix"></div>
+                                <div class="paymentContainer paymentContainerNew">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="visaP">
+                                        <label for="visaP">
+                                            <span class="paymentBtn visa"></span>
+                                        </label>
+                                        <!-- <input type="button" value="" class="paymentBtn visa active"> -->
+                                        <!-- <div class="btn-visamaster" ></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="masterP">
+                                        <label for="masterP">
+                                            <span class="paymentBtn masterCard"></span>
+                                        </label>
+                                        <!-- <div class="btn-visamaster" ></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="amexP">
+                                        <label for="amexP">
+                                            <span class="paymentBtn amex"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="cashP">
+                                        <label for="cashP">
+                                            <span class="paymentBtn cash"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="ocbcP">
+                                        <label for="ocbcP">
+                                            <span class="paymentBtn ocbc"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="chequeP">
+                                        <label for="chequeP">
+                                            <span class="paymentBtn cheque"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="noPaymentP">
+                                        <label for="noPaymentP">
+                                            <span class="paymentBtn noPayment"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="giro">
+                                        <label for="giro">
+                                            <span class="paymentBtn giro"></span>
+                                        </label>
+                                        <!-- <div id="buttonc2" class="btn-AmericanExpress"></div> -->
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                        <input type="radio" name="paymentMethod" id="enetsP">
+                                        <label for="enetsP">
+                                            <span class="paymentBtn enets"></span>
+                                        </label>
+                                        <!-- <input type="button" value="" class="paymentBtn enets"> -->
+                                        <span data-toggle="tooltip" data-placement="left" title="" class="glyphicon glyphicon-info-sign orangeColor valignTop toolTipSize posAbs" aria-hidden="true" data-original-title="To use eNets (internet banking), you need to have an Internet banking account with any one of the following banks: DBS, POSBank, Citibank, UOB and OCBC. "></span>
+                                        <!-- </span> -->
+                                        <!-- <div id="buttonc3" class="btn-Enets"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Payment module  component finishes from here -->
+                <!-- Applicant Address component starts from here -->
+                <div class="panel-group  mgTop1" id="accordion3" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default customDefaultPanel">
+                        <div class="panel-heading active" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3" role="tab" id="headingOne">
+                            <h4 class="panel-title"> Applicant Address <a role="button"> <span class="glyphicon pull-right glyphicon-minus-sign"></span> </a></h4>
+                        </div>
+                        <div id="collapseOne3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                            <div class="panel-body">
+                                <div class="row formRow">
+                                    <div class="form-group col-xs-12 col-sm-4 ">
+                                        <label for="">Postal Code :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4 ">
+                                        <label for="">Unit No :</label>
+                                        <div>
+                                            <input type="text" id="exampleInputName2" disabled="" placeholder="" class="text-center unitNoWidth" value="#">
+                                            <input type="text" id="exampleInputName2" placeholder="" class="unitNoWidth">
+                                            <input type="text" id="exampleInputName2" disabled="" class="text-center unitNoWidth" placeholder="" value="-">
+                                            <input type="text" id="exampleInputEmail2" class="unitNoLastBox" placeholder="">
+                                        </div>
+                                        <span class="smallText"> (eg. #03-123 at 3rd storey) </span>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row formRow">
+                                    <div class="form-group col-xs-12 col-sm-4 ">
+                                        <label for="">Block/House No :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-4 ">
+                                        <label for="">Street Name :<span class="redColor">*</span></label>
+                                        <input type="text" class="form-control " id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row formRow">
+                                    <div class="form-group col-xs-12 col-sm-4 ">
+                                        <label for="">Building Name :</label>
+                                        <input type="text" class="form-control" id="" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Applicant Address component finishes from here -->
+                <!-- Enter Captcha component starts from here -->
+                <div class="panel-group  mgTop1" id="accordion4" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default customDefaultPanel">
+                        <div class="panel-heading active" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4" role="tab" id="headingOne">
+                            <h4 class="panel-title"> Enter Captcha <a role="button"> <span class="glyphicon pull-right glyphicon-minus-sign"></span> </a></h4>
+                        </div>
+                        <div id="collapseOne4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                            <div class="panel-body">
+                                <div class="captchaHolder">
+                                    <div class="col-sm-3 col-xs-12 mgBtm1">
+                                        <div class="captchaImgContainer"><img src="img/input-black.gif"></div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12">
+                                        <input type="text" class="form-control" />
+                                        <span>(Type the characters you see in this picture.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Enter Captcha component finishes from here -->
+                <div class="panel panel-default panelHolder appointmentConfirmHolder">
+                    <div class="panel-body">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="appointmentConfirmContainer">
+                                <span class="appConfirmText"> <span class="glyphicon glyphicon-ok-sign appointmentOkIcon"></span> Your application is submitted successfully.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <span> Reference Number:</span>
+                            <div class="appTime">
+                                HM15091509969
+                            </div>
+                            <span> Document Submmision Date and Time:</span>
+                            <div class="appTime">
+                                15-SEP-2015 18:10:26
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default panelHolder appointmentConfirmHolder">
+                    <div class="panel-body">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="appointmentConfirmContainer">
+                                <span class="appConfirmText appNotConfirmedH"> <span class="glyphicon glyphicon-ok-sign appointmentOkIcon"></span> Your application is rejected.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <span> Reference Number:</span>
+                            <div class="appTime">
+                                HM15091509969
+                            </div>
+                            <span> Document Submmision Date and Time:</span>
+                            <div class="appTime">
+                                15-SEP-2015 18:10:26
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default panelHolder appointmentConfirmHolder">
+                    <div class="panel-body">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="appointmentConfirmContainer">
+                                <span class="appConfirmText appConfirmTextInfo textN"> <span class="glyphicon glyphicon-ok-sign appointmentOkIcon"></span> Your application is in processing.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <span> Reference Number:</span>
+                            <div class="appTime">
+                                HM15091509969
+                            </div>
+                            <span> Document Submmision Date and Time:</span>
+                            <div class="appTime">
+                                15-SEP-2015 18:10:26
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default panelHolder appointmentConfirmHolder">
+                    <div class="panel-body">
+                        <table class="table table-responsive table-striped table-bordered responsiveTable">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <span class="glyphicon glyphicon-triangle-bottom"></span><span class="thHeading">No.</span>
+                                    </th>
+                                    <th>
+                                        <span class="glyphicon glyphicon-triangle-bottom sorted"></span><span class="thHeading">Conservation Area</span>
+                                    </th>
+                                    <th>
+                                        <span class="thHeading">Address of Conserved Building</span>
+                                    </th>
+                                    <th>
+                                        <span class="thHeading">&nbsp;</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-th="No.">1</td>
+                                    <td data-th="Conservation Area">Boat Quay</td>
+                                    <td data-th="Address of Conserved Building">167 Smith Street</td>
+                                    <td data-th="Delete"><span class="glyphicon glyphicon-trash margin-top1"></span></td>
+                                </tr>
+                                <tr>
+                                    <td data-th="No.">2</td>
+                                    <td data-th="Conservation Area">Chinatown - Bukit Pasoh</td>
+                                    <td data-th="Address of Conserved Building">165 Adam Drive</td>
+                                    <td data-th="Delete"><span class="glyphicon glyphicon-trash margin-top1"></span></td>
+                                </tr>
+                          </tbody>
+                        </table>
+
+
+                        <table class="table mgTop1">
+                            <thead>
+                                <tr>
+                                    <th>Plan purchased</th>
+                                    <th>Delivery mode</th>
+                                    <th>Quantity</th>
+                                    <th>Process status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-th="Plan purchased">Certified Interpretation plan 2014 for Outside Central Area MK14-7895d</td>
+                                    <td data-th="Delivery mode">self-collect</td>
+                                    <td data-th="Quantity">1</td>
+                                    <td data-th="Process status">In Progress</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Plan purchased">Certified Interpretation plan 2014 for Outside Central Area MK14-7895d</td>
+                                    <td data-th="Delivery mode">self-collect</td>
+                                    <td data-th="Quantity">1</td>
+                                    <td data-th="Process status">In Progress</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Plan purchased">Certified Interpretation plan 2014 for Outside Central Area MK14-7895d</td>
+                                    <td data-th="Delivery mode">self-collect</td>
+                                    <td data-th="Quantity">1</td>
+                                    <td data-th="Process status">In Progress</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+                <!-- appointment confirmation detail panel starts from here -->
+                <div class="panel panel-default panelHolder appointmentConfirmHolder">
+                    <div class="panel-body">
+                        <div class="col-sm-6 borderRight1 col-xs-12">
+                            <h3>Your Particulars</h3>
+                            <div class="appointmentDetailContainer">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Applicant Name:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        Lorem Ipsum
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Applicant Address:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        Jurong east street 24 Jurong east street 24 Jurong dsf east street 24
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Telephone No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        67856173
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Fax No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        +91-232323
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Email Address:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        abc@xyz.com
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Applicant Refrence No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        LR1524009F
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <h3>Your Property Information</h3>
+                            <div class="appointmentDetailContainer">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Blk/House No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        Blk 465 choa Chu Kang Ave 4, 10-13
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Street Name:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        Street 24
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Storey/Unit No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        Jurong East
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Building Name:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        12 International Buisness Park
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Postal Code:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        125635
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>Lot No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        454545
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <label>MKTS No:</label>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        TSMK
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Particulars Of Owner starts from here -->
+                <div class="panel-group  mgTop1" id="accordion3" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default customDefaultPanel">
+                        <div class="panel-heading active" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                Supporting Documents
+                                <a role="button">
+                                    <span class="glyphicon pull-right glyphicon-minus-sign"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                            <div class="panel-body padding0ForForm">
+                                <div class="col-xs-12">
+                                    <div class="">
+
+                                        <div class="row formRow">
+                                            <div class="form-group col-xs-12     fileupload fileupload-new" data-provides="fileupload">
+                                                <label class="mgRight05 col-xs-12 clear padding0" >Attach File   : </label>
+
+                                                <span class="btn first btn-file uploadBoxWidth" > <span class="fileupload-new"> <span class="pull-left">Upload</span> <span class="glyphicon glyphicon-paperclip pull-right fn18"></span> </span> <span class="fileupload-exists"> <span class="pull-left">Upload</span> <span class="glyphicon glyphicon-paperclip pull-right fn18"></span></span>
+                                                    <input type="file" />
+                                                </span>
+
+                                                <div class="filepreviewContainer">
+                                                    <span class="fileupload-preview fileupload-exists"></span>
+                                                    <a href="#" class="fileupload-exists deleteUploadFile" data-dismiss="fileupload"> <span class="glyphicon glyphicon-remove fn18 verticleAlign"
+                                                    ></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <table class="table mgTop1">
+                                            <thead>
+                                                <tr>
+                                                    <th>Type of Document</th>
+                                                    <th>File(s) Attached</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td data-th="Type of Document">Others</td>
+                                                    <td data-th="File(s) Attached"><a href="#">hdl.png</a></td>
+                                                    <td data-th="Action"><a href="#" class="btn btn-default btn-border">Remove</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Particulars Of Owner finishes from here -->
+
+
+                <!-- appointment confirmation detail panel finishes here -->
+                <div class="tabsHolder">
+                    <!-- <h1 class="tabsHeading">Search by</h1> -->
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#property" aria-controls="home" role="tab" data-toggle="tab"><span class="hideOnMobile">Search By </span>Project Name</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#district" aria-controls="profile" role="tab" data-toggle="tab"><span class="hideOnMobile">Search By </span>Property Type and Postal District</a>
+                        </li>
+
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content mgBtm1">
+                        <div role="tabpanel" class="tab-pane active" id="property">
+                            <div class="clear clearfix projectListingHolder">
+
+                                <a href="" class="btn btn-primary btn-lg clearProjectP">Clear </a>
+                                <h2 class="margin-top1">Project Selection </h2>
+                                <div class="projectListingContainer">
+                                    <div class="col-sm-6 projectLeftPanel">
+                                        <input type="text" id="searchLeftProject" class="form-control" placeholder="Search from project listed below">
+                                        <select name="" id="selectProjectL" style="display:none;">
+                                            <option value="1">test 1</option>
+                                            <option value="2">test 2</option>
+                                            <option value="3">test 3</option>
+                                            <option value="4">test 4</option>
+                                        </select>
+                                        <div class="projectContainerBox" id="projectContainerBox">
+                                            <!-- <a href="" ng-repeat="(key, value) in projectData | filter:searchLeft" ng-click="addRmProject(value, false, $index)">{{value.name}}</a> -->
+                                        </div>
+                                        <p class="notedText">
+                                            *click on project listed to select
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6 projectRightPanel">
+                                        <select name="" id="selectProjectRight" style="display:none;">
+                                            <option value="5">test 5</option>
+                                            <option value="6">test 6</option>
+                                        </select>
+                                        <p class="projectCount"><span id="projectSelectedDataCount">0</span> of 5 project selected</p>
+                                        <div class="projectContainerBox" id="projectContainerBoxSelected">
+                                            <!-- <a href="" ng-repeat="(key, value) in projectSelectedData | filter:searchRight" ng-click="addRmProject(value, true, $index)">{{value.name}} <span class="glyphicon glyphicon-remove floatright" aria-hidden="true"></span></a> -->
+                                        </div>
+                                        <p class="notedText">
+                                            *click on project listed to deselect
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="district">
+                            <div class="clear clearfix projectListingHolder">
+                                <h2 class="margin-top1">Postal District Selection </h2>
+                                <div class="projectListingContainer">
+                                    <div class="col-sm-6 projectLeftPanel">
+                                        <input type="text" id="searchLeftPostal" class="form-control" placeholder="Search from postal listed below">
+                                        <select name="" id="selectPostalL" style="display:none;">
+                                            <option value="test 1">test 1</option>
+                                            <option value="test 2">test 2</option>
+                                            <option value="test 3">test 3</option>
+                                            <option value="test 4">test 4</option>
+                                        </select>
+                                        <div class="projectContainerBox" id="postalContainerBox">
+                                            <!-- <a href="" ng-repeat="(key, value) in projectData | filter:searchLeft" ng-click="addRmProject(value, false, $index)">{{value.name}}</a> -->
+                                        </div>
+                                        <p class="notedText">
+                                            *click on postal district listed to select
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6 projectRightPanel">
+                                        <select name="" id="selectPostalRight" style="display:none;"></select>
+                                        <p class="projectCount"><span id="postalSelectedDataCount">0</span> of 5 project selected</p>
+                                        <div class="projectContainerBox" id="postalContainerBoxSelected">
+                                            <!-- <a href="" ng-repeat="(key, value) in projectSelectedData | filter:searchRight" ng-click="addRmProject(value, true, $index)">{{value.name}} <span class="glyphicon glyphicon-remove floatright" aria-hidden="true"></span></a> -->
+                                        </div>
+                                        <p class="notedText">
+                                            *click on postal district listed to deselect
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                     </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-6 form-inline paginationContainer">
+                        <!-- <div class="col-sm-3"> -->
+                            <span>Showing 1 to 10 of 68 </span>
+                        <!-- </div> -->
+                        <!-- <div class="col-sm-1"> -->
+                            <select id="timeSelect" class="form-control">
+                                <option>10</option>
+                                <option>25</option>
+                                <option>50</option>
+                                <option>All</option>
+                            </select>
+                        <!-- </div> -->
+                        <!-- <div class="col-sm-2"> -->
+                            <span class="mgLeft1"> records per page</span>
+                        <!-- </div> -->
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <nav class="paginationHolder">
+                            <ul class="pagination mgTop0">
+                                <li class="disabled">
+                                    <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">1 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a href="#">4</a>
+                                </li>
+                                <li>
+                                    <a href="#">5</a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <!-- checkbox panel start form here -->
+                <div class="panel panel-default panelHolder mgTop1">
+                    <div class="panel-body">
+                        <!-- checbx panel starts from here -->
+                        <div class="checkboxHolder clear clearfix">
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="checkbox1" disabled="">
+                                <label for="checkbox1">New Sale</label>
+                            </div>
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="checkbox2">
+                                <label for="checkbox2">Sub Sale</label>
+                            </div>
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="checkbox3">
+                                <label for="checkbox3">Resale </label>
+                            </div>
+                        </div>
+                        <!-- checbx panel finishes from here -->
+                        <!-- radio` panel starts from here -->
+                        <div class="radioHolder clear clearfix">
+                            <div class="radioContainer">
+                                <input type="radio" id="radio1" name="radio" value="$1">
+                                <label for="radio1">Landed Properties</label>
+                            </div>
+                            <div class="radioContainer">
+                                <input type="radio" id="radio2" name="radio" value="$2">
+                                <label for="radio2">Apartments &amp; Condominiums</label>
+                            </div>
+                            <div class="radioContainer">
+                                <input type="radio" id="radio3" name="radio" value="$3">
+                                <label for="radio3">Executive Condominiums </label>
+                            </div>
+                        </div>
+                        <!-- radio` panel finishes from here -->
+                    </div>
+                </div>
+                <!-- checkbox panel finishes here -->
+                <!-- note start form here -->
+                <div class="panel panel-default panelHolder mgTop1">
+                    <div class="panel-body">
+                        <h4 class="mgTop0">Note:</h4>
+                        <ul class="insideListul">
+                            <li>Please note that we are able to meet up to two customers per appointment.</li>
+                            <li>If you have any queries, please contact our Customer Service Officer at (65) 6223 4811 or email <a href="mailto:ura_dcd@ura.gov.sg">ura_dcd@ura.gov.sg</a>.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- note finishes here -->
+                <!-- content holder closes below  -->
+        </div>
+        <!-- Content finishes from here -->
+        <!-- Footer View loades here :: replace below tag with java tiles attribute -->
+            <div class="sgds-footer">
+ <div class="sgds-container">
+        <div class="row">
+            <div class="col header">
+                <h5 class="sub-header has-text-white"><b>Urban Redevelopment Authority</b></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col is-3">
+                <p><b>Digital Service</b></p>
+                <p><a href="#">Check Application Status</a></p>
+
+            </div>
+            <div class="col is-3">
+                <p class="sub-header"><b>Info</b></p>
+                <p><a href="#">How to view...</a></p>
+                <p><a href="#" target="_blank">External Website<i class="sgds-icon sgds-icon-external"></i></a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col is-right-desktop-only">
+                <ul>
+                    <li class="is-inline-block-desktop-only">
+                        <!--Tools questionaire-->
+                        <p><a href="#" target="_blank">Contact</a></p>
+                    </li>
+                    <li class="is-inline-block-desktop-only">
+                        <!--Feedback form-->
+                        <p><a href="#" target="_blank">Feedback</a></p>
+                    </li>
+                    <li class="is-inline-block-desktop-only">
+                        <p><a href="#">FAQs</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row is-vcentered divider">
+            <div class="col">
+                <ul>
+                    <li><a href="https://www.ura.gov.sg/Corporate/Privacy-Statement">Privacy Statement</a></li>
+                    <li><a href="https://www.ura.gov.sg/Corporate/Terms-of-Use">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col has-text-right-desktop has-text-right-tablet has-text-left-mobile">
+                <p class="is-hidden-touch">&copy; 2019 Government of Singapore. Last Updated 14 Jan 2019</p>
+                <p class="is-hidden-desktop">&copy; 2019 Government of Singapore</p>
+                <p class="is-hidden-desktop last-updated">Last Updated 14 Jan 2019</p>
+            </div>
+        </div>
+
+    </div>
+            </div>
+
+
+
+
+        <!-- Footer View finishes here -->
+        <a href="#" id="back-to-top"><span class="glyphicon glyphicon-chevron-up" style="" aria-hidden="true"></span><br />Top</a>
+    </div>
+    <!-- UI Finishes here -->
+    <script src="js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="js/vendor/jquery-ui-1.10.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/assign-project_component.js"></script> -->
+<!--     <script src="js/assign-locality_component.js"></script>
+    <script src="js/assign-postal_component.js"></script>
+    <script src="js/assigned-panel-group.js"></script>
+     -->    <!-- Controller angular  -->
+    <script src="js/controllers/baseCtrl.js"></script>
+</body>
+
+</html>
