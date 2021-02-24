@@ -4064,6 +4064,18 @@ strong {
 .sgds-footer .footer-link-title {
   color: #fff;
 }
+
+.sgds-footer {
+  padding: 2rem;
+  background-color: #e6e6e6;
+}
+.sgds-footer .title {
+  color: white;
+}
+.sgds-footer .divider {
+  border-top: 1px solid #95989a;
+}
+
 .sgds-footer a {
   color: #484848;
   font-size: 17px;
