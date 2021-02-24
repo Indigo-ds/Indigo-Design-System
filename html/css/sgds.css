@@ -4100,7 +4100,7 @@ strong {
   margin-right: 10px;
 }
 .sgds-footer ul li a {
-  color: #b7b7b7;
+  color: #484848;
 }
 .sgds-footer ul li a:hover {
   color: #fff;
@@ -4128,7 +4128,7 @@ strong {
 }
 .sgds-footer > .bottom-section {
   padding: 1rem 2rem;
-  background-color: #191919;
+  background-color: #e6e6e6;
 }
 .sgds-footer > .bottom-section .row {
   display: flex;
