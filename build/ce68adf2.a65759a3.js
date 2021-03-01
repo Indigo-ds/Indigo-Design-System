@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{102:function(s){s.exports=JSON.parse('{"allTagsPath":"/Indigo-Design-System/build/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/Indigo-Design-System/build/blog/tags/docusaurus"}')}}]);

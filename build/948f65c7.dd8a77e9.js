@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{93:function(l){l.exports=JSON.parse('{"allTagsPath":"/Indigo-Design-System/build/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/Indigo-Design-System/build/blog/tags/hello"}')}}]);
