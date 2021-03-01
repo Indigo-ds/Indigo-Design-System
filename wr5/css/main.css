@@ -1,0 +1,3138 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+  font-family: "Bariol_Regular";
+  /*src: ;*/
+  /* IE9 Compat Modes */
+  src: url("fonts/bariol_regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/bariol_regular-webfont.woff2") format("woff2"),
+    url("fonts/bariol_regular-webfont.woff") format("woff"),
+    url("fonts/bariol_regular-webfont.ttf") format("truetype"),
+    url("fonts/bariol_regular-webfont.svg#svgFontName") format("svg"),
+    url("fonts/bariol_regular-webfont.eot");
+  /* Legacy iOS */
+}
+
+body,
+html {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Calibri, Lato, Arial, Helvetica, sans-serif, "Lucida Grande" !important;
+  font-size: 16px;
+  color: #555;
+  background-color: #fff;
+}
+
+.pageholder {
+  position: relative;
+  min-height: 100%;
+  /*padding-bottom: 100px;*/
+}
+.pageholder.pageholderFull .containerFullWidth {
+  max-width: inherit;
+  width: 95%;
+}
+
+.clear,
+.containerFullWidth,
+.salesAppMenu,
+.filesStack ul li {
+  clear: both;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.logoImgUra {
+  width: 310px;
+  height: 75px;
+  background: url("../img/logo/logo_ura.png") no-repeat top left/300px
+    transparent;
+  display: inline-block;
+}
+
+.containerFullWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#back-to-top,
+#back-to-top:hover {
+  background-color: #d9dee1;
+}
+
+.glyphicon {
+  color: #007ebb;
+}
+
+.orangeColor {
+  color: #ef7800;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.footer > .containerFullWidth:first-child {
+  display: none;
+}
+.footer .footerbuildings {
+  text-align: center;
+}
+.footer .footerbuildings img {
+  width: 100%;
+  max-width: 950px;
+}
+.footer .footerBgPattern {
+  background-color: transparent;
+}
+.footer .footerLinksHolder {
+  float: right;
+}
+.footer .footerLinksHolder .footerLinksContainer {
+  background-color: transparent;
+  padding: 0 0 1.5em;
+  position: relative;
+  text-align: center;
+}
+.footer .footerLinksHolder .footerLinksContainer a.footerLink {
+  font-size: 0.95em;
+  color: #555;
+  padding: 0.4em 1em;
+  text-align: center;
+  display: inline-block;
+}
+.footer .footerLinksHolder .footerLinksContainer a.footerLink.link1 {
+  border-right: 1px solid #ccc;
+}
+.footer .footerLinksHolder .footerLinksContainer a.footerLink.link2 {
+  border-right: 1px solid #ccc;
+}
+.footer .footerLinksHolder .footerLinksContainer a.footerLink.link3 {
+  border-right: 1px solid #ccc;
+}
+.footer .footerLinksHolder .footerLinksContainer a.footerLink:hover {
+  color: #de0a15;
+  text-decoration: none;
+}
+.footer .copyrightTextHolder {
+  text-align: left;
+  float: left;
+}
+.footer .copyrightTextHolder .copyrightText {
+  font-size: 1em;
+  display: inline-block;
+  line-height: auto;
+  margin-bottom: 1.5em;
+  font-weight: 300px;
+}
+
+.uraLogoHolder a img {
+  max-height: 60px;
+  max-width: 200px;
+}
+
+.uraLogoHolder a span.uraLogoTagline {
+  display: none;
+  color: #414141;
+  text-decoration: none;
+  font-size: 0.8125em;
+}
+
+.uraLogoHolder a:hover {
+  text-decoration: none;
+}
+
+div.mainPanelContent + div.text-right {
+  text-align: right;
+}
+
+.singaporeLogo a {
+  display: inline-block;
+  margin-top: 1em;
+}
+.singaporeLogo a img {
+  max-height: 40px;
+  min-height: 40px;
+  max-width: none;
+}
+
+.padding0 {
+  padding: 0;
+}
+.padding0.forDesktop {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.padding0.paddingLeft {
+  padding-left: 15px;
+}
+.padding0.paddingRight {
+  padding-right: 15px;
+}
+
+.titleHolder {
+  background-color: #f4f5f5;
+  padding: 0;
+  position: relative;
+  z-index: 3;
+}
+
+.titleContainer {
+  position: relative;
+  padding: 0.8em 1em;
+  min-height: 65px;
+}
+
+h1 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+h1.pageTitle {
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-weight: normal;
+  float: left;
+  width: 90%;
+  line-height: 40px;
+}
+
+h2.noBorder {
+  border: 0;
+}
+
+h2.bigHeading {
+  font-size: 1.2em;
+  border: 0;
+}
+
+.menuHolder {
+  float: right;
+  width: 5%;
+}
+.menuHolder .menuBtn {
+  /* font-size: 1.25em;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 0.3em;
+        padding: 0.2em 0.3em; */
+  background-color: transparent;
+  margin-right: 16px;
+  min-width: 31px;
+  max-width: 31px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -13px;
+  border-radius: 5px;
+}
+.menuHolder .menuBtn img {
+  margin-top: -1px;
+}
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f4f5f5;
+  z-index: 23;
+}
+.menuList li {
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+}
+.menuList li a {
+  color: #3c3c3c;
+  text-transform: capitalize;
+  display: block;
+  padding: 0.7em 1em;
+}
+.menuList li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.redColor {
+  color: #de0a15;
+}
+
+.tabsHolder {
+  margin-top: 1.5em;
+}
+.tabsHolder .tabsHeading {
+  display: none;
+}
+.tabsHolder .nav-tabs {
+  border-bottom-color: #007ebb;
+}
+.tabsHolder .nav-tabs li {
+  width: auto;
+}
+.tabsHolder .nav-tabs li:first-child {
+  margin-left: 9px;
+}
+.tabsHolder .nav-tabs li a {
+  background-color: #d9dee1;
+  color: #808080;
+  cursor: pointer;
+  border: 1px solid #d9dee1;
+  font-size: 1.125em;
+  margin-right: 5px;
+  border-bottom-color: #007ebb;
+}
+.tabsHolder .nav-tabs li a:hover {
+  background-color: #007ebb;
+  border-color: #007ebb;
+  color: #fff;
+  cursor: pointer;
+}
+.tabsHolder .nav-tabs li.active {
+  cursor: pointer;
+}
+.tabsHolder .nav-tabs li.active a {
+  background-color: #007ebb;
+  border-color: #007ebb;
+  border-bottom-color: #007ebb;
+  color: #fff;
+  cursor: pointer;
+}
+.tabsHolder .nav-tabs li.active a:hover {
+  background-color: #007ebb;
+  border-color: #007ebb;
+  color: #fff;
+  cursor: pointer;
+}
+.tabsHolder .tab-content .tab-pane {
+  padding: 1em 1em 0 1em;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-radius: 0 0px 4px 4px;
+  background-color: #fff;
+}
+
+.panelHolder {
+  margin-top: 0.5em;
+}
+.panelHolder.mgTop1 {
+  margin-top: 1em;
+}
+.panelHolder .panel-heading {
+  background: none #d9dee1;
+  cursor: pointer;
+}
+.panelHolder .panel-title {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.panelHolder .panel-title span.expClpIcon {
+  color: #007ebb;
+}
+.panelHolder .panel-title .glyphicon {
+  font-size: 1.2em;
+}
+.panelHolder .panel-body {
+  font-size: 1em;
+}
+.panelHolder .panel-body .initialPanelContent p.twoLinesOnly,
+.panelHolder .panel-body .mainPanelContent p.twoLinesOnly {
+  margin-bottom: 0.5em;
+  max-height: 2.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panelHolder .panel-body .initialPanelContent ul,
+.panelHolder .panel-body .initialPanelContent ol,
+.panelHolder .panel-body .mainPanelContent ul,
+.panelHolder .panel-body .mainPanelContent ol {
+  list-style-position: outside;
+}
+.panelHolder .panel-body .initialPanelContent ul .twoLinesOnly,
+.panelHolder .panel-body .initialPanelContent ol .twoLinesOnly,
+.panelHolder .panel-body .mainPanelContent ul .twoLinesOnly,
+.panelHolder .panel-body .mainPanelContent ol .twoLinesOnly {
+  margin-bottom: 0.5em;
+  max-height: 2.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panelHolder .panel-body .initialPanelContent ul .oneLineOnly,
+.panelHolder .panel-body .initialPanelContent ol .oneLineOnly,
+.panelHolder .panel-body .mainPanelContent ul .oneLineOnly,
+.panelHolder .panel-body .mainPanelContent ol .oneLineOnly {
+  margin-bottom: 0.5em;
+  max-height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panelHolder .panel-body ol li {
+  margin-bottom: 0.5em;
+}
+
+.formRow > div {
+  margin-bottom: 1em;
+}
+
+.btnRadioContainer input[type="radio"] {
+  display: none;
+}
+
+.btnRadioContainer.customRadioCheckBoxBtns > div.noMarginBtm {
+  margin-bottom: 0;
+}
+
+.btnRadioContainer.customRadioCheckBoxBtns .checkboxHolder.noBorderForLabel,
+.btnRadioContainer.customRadioCheckBoxBtns .radioHolder.noBorderForLabel {
+  margin-left: 0.4em;
+}
+
+.mgLeft1 {
+  margin-left: 1em;
+}
+
+.mgRight05 {
+  margin-right: 0.5em;
+}
+
+.mgBtm1 {
+  margin-bottom: 1em;
+}
+
+.mgBtm2 {
+  margin-bottom: 2em;
+}
+
+.mgBtm0 {
+  margin-bottom: 0 !important;
+}
+
+.mgTop05 {
+  margin-top: 0.5em;
+}
+
+.header-bg {
+  background-color: #fff;
+  border-top: solid 8px #dc2837;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 4;
+  position: relative;
+}
+
+.btn-default {
+  background: none #d9dee1;
+  box-shadow: 0 0 0;
+  border: 1px solid #d9dee1;
+  text-shadow: 0 0 0;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+.btn-default.btn-disable {
+  color: #949494;
+}
+.btn-default.btn-disable:hover {
+  color: #949494;
+  background: none #d9dee1;
+  border: 1px solid #d9dee1;
+}
+.btn-default.btn-border {
+  background: none transparent;
+  border: 1px solid #007ebb;
+  color: #007ebb;
+}
+.btn-default.btn-border:hover {
+  background: none transparent;
+  color: #555;
+}
+.btn-default.radioGroup {
+  font-size: 1em;
+}
+.btn-default.active,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active:focus {
+  background: none #007ebb;
+  box-shadow: 0 0 0;
+  border: 1px solid #007ebb;
+  text-shadow: 0 0 0;
+  color: #fff;
+}
+.btn-default:active:focus {
+  background: none #8c8c8c;
+  box-shadow: 0 0 0;
+  border: 1px solid #8c8c8c;
+  text-shadow: 0 0 0;
+  color: #fff;
+  outline: 0;
+}
+.btn-default:hover {
+  background: none #a4a4a4;
+  box-shadow: 0 0 0;
+  border: 1px solid #a4a4a4;
+  text-shadow: 0 0 0;
+  color: #fff;
+}
+
+.form-control-static {
+  padding-top: 0px;
+}
+
+.inputGroupCustom {
+  position: relative;
+}
+.inputGroupCustom .glyphicon {
+  position: absolute;
+  right: 0.5em;
+  top: 0.75em;
+}
+
+.btn.btn-primary {
+  background: none #007ebb;
+  box-shadow: 0 0 0;
+  border: 1px solid #007ebb;
+  text-shadow: 0 0 0;
+  color: #fff;
+  padding: 0.7em 1.5em;
+}
+
+.smallText {
+  font-size: 0.875em;
+}
+.smallText.normalText {
+  font-weight: normal;
+  color: #555 !important;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+.insideListul {
+  padding: 0 0 0 18px;
+  list-style-position: outside;
+}
+.insideListul li {
+  margin-bottom: 0.3em;
+}
+
+.mandatoryContent {
+  font-size: 1em;
+}
+
+.deleteUploadFile {
+  position: absolute;
+  top: 3px;
+  right: 0.5em;
+}
+
+.fileupload-preview {
+  padding: 5px 105px 10px 9px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  color: #007ebb;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.filepreviewContainer {
+  position: relative;
+  display: inline-block;
+}
+.filepreviewContainer.showBtmfiles .fileupload-preview.fileupload-exists {
+  line-height: 17px;
+}
+.filepreviewContainer.showBtmfiles .fileupload-exists {
+  display: inline-block;
+}
+.filepreviewContainer.showBtmfiles .fileupload-exists.hideFileUpload {
+  display: none;
+}
+
+.appointmentConfirmHolder {
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+}
+.appointmentConfirmHolder .appointmentConfirmContainer {
+  margin-top: 1.7em;
+}
+.appointmentConfirmHolder .appointmentConfirmContainer.noMgTop {
+  margin-top: 0;
+}
+.appointmentConfirmHolder .appointmentOkIcon {
+  font-size: 1.7em;
+  color: #59b904;
+  vertical-align: middle;
+  float: left;
+  margin-right: 0.2em;
+  display: none;
+}
+.appointmentConfirmHolder .appTime {
+  font-size: 1.6em;
+  margin-bottom: 0.2em;
+}
+.appointmentConfirmHolder .appConfirmText {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  float: left;
+  padding-left: 2em;
+  position: relative;
+}
+.appointmentConfirmHolder .appConfirmText.smallFont {
+  font-size: 1.1em;
+}
+.appointmentConfirmHolder .appConfirmText:before {
+  content: "\e084";
+  font-family: "Glyphicons Halflings";
+  color: #59b904;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 1.6em;
+}
+.appointmentConfirmHolder .appConfirmText.appNotConfirmedH:before {
+  content: "\e083";
+  color: #de0a15;
+}
+.appointmentConfirmHolder .appConfirmText.appConfirmTextInfo {
+  font-size: 1.1em;
+}
+.appointmentConfirmHolder .appConfirmText.appConfirmTextInfo.textN {
+  font-size: 1.6em;
+}
+.appointmentConfirmHolder .appConfirmText.appConfirmTextInfo:before {
+  content: "\e086";
+  color: #007ebb;
+  /*  position: absolute;
+                        left: 0;
+                        top: 0.2em;
+                        font-size: 1.6em; */
+}
+
+.appointmentConfirmHolder h3 {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.appointmentConfirmHolder .appointmentDetailContainer .row {
+  margin-bottom: 1em;
+}
+
+.borderRight1 {
+  border-right: 1px solid #ddd;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 7px;
+}
+
+.panel-default.customDefaultPanel .panel-heading {
+  background: none #fff;
+  padding: 15px;
+  cursor: pointer;
+}
+.panel-default.customDefaultPanel .panel-heading .panel-title {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+.panel-default.customDefaultPanel .panel-heading .panel-title span {
+  color: #007ebb;
+}
+.panel-default.customDefaultPanel .panel-heading .panel-title .glyphicon {
+  font-size: 1.2em;
+}
+
+/* ..panel-default {
+    .panel-heading {
+        background:none #FFF; 
+        padding:15px;
+        cursor: pointer;
+        
+        .panel-title {
+            font-weight: bold;
+            font-size: 1.125em;
+
+            span {
+                color: $bgBlueIconColor;
+            }
+        }
+    }
+} */
+.widthFull {
+  width: 100%;
+}
+
+.tooltip-inner {
+  color: #000;
+  background-color: #d9dee1;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: #d9dee1;
+}
+
+.hasError {
+  border-color: red;
+}
+
+.error_text {
+  color: red;
+  clear: both;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+.error_text.grayColor {
+  color: #555;
+}
+
+.type-switcher {
+  float: left;
+  display: block;
+}
+.type-switcher.inline {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+.type-switcher + input,
+.type-switcher input.mkTsVal {
+  float: left;
+  margin: 0 0 0 0.5em;
+  width: 48%;
+}
+
+.mkTsValError {
+  margin-left: 5px;
+}
+
+.mgLeft05 {
+  margin-left: 5px;
+}
+
+.type-switcher label {
+  display: block;
+  float: left;
+  padding: 0 15px;
+  height: 38px;
+  line-height: 38px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: transparent;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid #a4a4a4;
+  font-weight: normal;
+}
+
+.type-switcher label:hover {
+  cursor: pointer;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #ffffff),
+    color-stop(100%, #f9f9f9)
+  );
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #f9f9f9 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+}
+
+.type-switcher label.last {
+  border-radius: 0 3px 3px 0;
+}
+
+.type-switcher [type="radio"] {
+  display: none;
+}
+
+.type-switcher [type="radio"]:first-child + label {
+  border-radius: 3px 0 0 3px;
+}
+
+.type-switcher [type="radio"]:checked + label {
+  background: #007ebb;
+  cursor: default;
+  color: #fff;
+}
+
+.type-switcher label span.text {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.type-switcher > br {
+  display: none;
+}
+
+.toolTipSize {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.valignTop {
+  vertical-align: top;
+}
+
+.paymentContainer {
+  text-align: center;
+}
+.paymentContainer.paymentContainerNew > .col-sm-2.col-xs-12 {
+  width: 100%;
+}
+.paymentContainer.paymentContainerNew label {
+  background: url(../img/radio.png) no-repeat 0.4em 1.6em #fff;
+  padding-left: 2em;
+  cursor: pointer;
+}
+.paymentContainer.paymentContainerNew input[type="radio"] {
+  display: none;
+}
+.paymentContainer.paymentContainerNew input[type="radio"]:checked + label {
+  background: url(../img/radio-selected.png) no-repeat 0.4em 1.6em #fff;
+}
+.paymentContainer.paymentContainerNew .paymentBtn {
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-color: transparent;
+  max-width: 109px;
+  min-width: 109px;
+  height: 77px;
+  display: inline-block;
+}
+.paymentContainer.paymentContainerNew .paymentBtn:focus {
+  border: 0 none;
+  box-shadow: 0 0 0;
+  outline: 0;
+}
+.paymentContainer.paymentContainerNew .paymentBtn.visa {
+  background-image: url(../img/payment/visaselected.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.visa.active,
+.paymentContainer.paymentContainerNew .paymentBtn.visa:hover {
+  background-image: url(../img/payment/visaselected.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.masterCard {
+  background-image: url(../img/payment/Mastercard.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.masterCard.active,
+.paymentContainer.paymentContainerNew .paymentBtn.masterCard:hover {
+  background-image: url(../img/payment/Mastercard.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.amex {
+  background-image: url(../img/payment/Americanexpress.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.amex.active,
+.paymentContainer.paymentContainerNew .paymentBtn.amex:hover {
+  background-image: url(../img/payment/Americanexpress.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.banktransferP {
+  background-image: url(../img/payment/banktransfer.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.banktransferP.active,
+.paymentContainer.paymentContainerNew .paymentBtn.banktransferP:hover {
+  background-image: url(../img/payment/banktransfer.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.NoPaymentP {
+  background-image: url(../img/payment/no-payment.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.NoPaymentP.active,
+.paymentContainer.paymentContainerNew .paymentBtn.NoPaymentP:hover {
+  background-image: url(../img/payment/no-payment.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.billMinistryP {
+  background-image: url(../img/payment/bill-ministry.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.billMinistryP.active,
+.paymentContainer.paymentContainerNew .paymentBtn.billMinistryP:hover {
+  background-image: url(../img/payment/bill-ministry.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.enets {
+  background-image: url(../img/payment/eNets.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.enets.active,
+.paymentContainer.paymentContainerNew .paymentBtn.enets:hover {
+  background-image: url(../img/payment/eNets.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.giro {
+  background-image: url(../img/payment/giro.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.giro.active,
+.paymentContainer.paymentContainerNew .paymentBtn.giro:hover {
+  background-image: url(../img/payment/giro.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.cash {
+  background-image: url(../img/payment/cash.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.cash.active,
+.paymentContainer.paymentContainerNew .paymentBtn.cash:hover {
+  background-image: url(../img/payment/cash.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.ocbc {
+  background-image: url(../img/payment/ocbc.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.ocbc.active,
+.paymentContainer.paymentContainerNew .paymentBtn.ocbc:hover {
+  background-image: url(../img/payment/ocbc.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.paynow {
+  background-image: url(../img/payment/paynow.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.paynow.active,
+.paymentContainer.paymentContainerNew .paymentBtn.paynow:hover {
+  background-image: url(../img/payment/paynow.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.cheque {
+  background-image: url(../img/payment/cheque.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.cheque.active,
+.paymentContainer.paymentContainerNew .paymentBtn.cheque:hover {
+  background-image: url(../img/payment/cheque.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.noPayment {
+  background-image: url(../img/payment/no-payment.png);
+}
+.paymentContainer.paymentContainerNew .paymentBtn.noPayment.active,
+.paymentContainer.paymentContainerNew .paymentBtn.noPayment:hover {
+  background-image: url(../img/payment/no-payment.png);
+}
+.paymentContainer .paymentBtn {
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-color: transparent;
+  max-width: 109px;
+  min-width: 109px;
+  height: 77px;
+}
+.paymentContainer .paymentBtn:focus {
+  border: 0 none;
+  box-shadow: 0 0 0;
+  outline: 0;
+}
+.paymentContainer .paymentBtn.visa {
+  background-image: url(../img/payment/visaselected.png);
+}
+.paymentContainer .paymentBtn.visa.active,
+.paymentContainer .paymentBtn.visa:hover {
+  background-image: url(../img/payment/visaselected_Selected.png);
+}
+.paymentContainer .paymentBtn.masterCard {
+  background-image: url(../img/payment/Mastercard.png);
+}
+.paymentContainer .paymentBtn.masterCard.active,
+.paymentContainer .paymentBtn.masterCard:hover {
+  background-image: url(../img/payment/Mastercard_Selected.png);
+}
+.paymentContainer .paymentBtn.amex {
+  background-image: url(../img/payment/Americanexpress.png);
+}
+.paymentContainer .paymentBtn.amex.active,
+.paymentContainer .paymentBtn.amex:hover {
+  background-image: url(../img/payment/Americanexpress_Selected.png);
+}
+.paymentContainer .paymentBtn.enets {
+  background-image: url(../img/payment/eNets.png);
+}
+.paymentContainer .paymentBtn.enets.active,
+.paymentContainer .paymentBtn.enets:hover {
+  background-image: url(../img/payment/eNets_Selected.png);
+}
+
+.form-inline label.control-label {
+  line-height: 35px;
+}
+
+.radioGroup label.btn {
+  border-radius: 0em;
+  border: 1px solid #b7b7b7;
+}
+.radioGroup label.btn:first-child {
+  border-radius: 0.3em 0 0 0.3em;
+}
+.radioGroup label.btn:last-child {
+  border-radius: 0 0.3em 0.3em 0;
+}
+.radioGroup label.btn input {
+  display: none;
+}
+
+.lineHeight39 {
+  line-height: 39px;
+}
+
+.checkboxHolder {
+  margin-top: 1em;
+}
+.checkboxHolder.noBorderForLabel {
+  margin-top: 0;
+}
+.checkboxHolder.noBorderForLabel .checkboxContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.checkboxHolder.noBorderForLabel.forStraightForm {
+  float: left;
+}
+.checkboxHolder.noBorderForLabel.forStraightForm .checkboxContainer {
+  clear: none;
+  width: auto;
+  float: left;
+}
+.checkboxHolder.noBorderForLabel.forStraightForm .checkboxContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 1em 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.checkboxHolder.noBorderForLabel.forStraightForm + input {
+  display: inline-block;
+  width: auto;
+  float: left;
+  /* &:checked + label {
+                    background: url(../img/checkbox-selected.png) no-repeat 0.7em center #FFF; //$bgBlueIconColor;
+                    // color: #fff;
+                } */
+}
+.checkboxHolder.noBorderForLabel.noPad.fontNormal .checkboxContainer label {
+  font-weight: normal;
+}
+.checkboxHolder.noBorderForLabel.noPad {
+  margin-top: 0;
+}
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer.checkboxWithDesc
+  input[disabled]
+  + label,
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer.checkboxWithDesc
+  input.disabled
+  + label {
+  background: url(../img/checkbox-disabled.png) no-repeat 0 center white;
+  cursor: not-allowed;
+}
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer.checkboxWithDesc
+  label {
+  background: url(../img/checkbox.png) no-repeat 0 1em #fff;
+}
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer
+  input[disabled]
+  + label,
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer
+  input.disabled
+  + label {
+  background: url(../img/checkbox-disabled.png) no-repeat 0 center white;
+  cursor: not-allowed;
+}
+.checkboxHolder.noBorderForLabel.noPad .checkboxContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 2.2em;
+  display: inline-block;
+  width: initial;
+  background: url(../img/checkbox.png) no-repeat 0 center #fff;
+  font-size: 1em;
+}
+.checkboxHolder.noBorderForLabel.noPad .checkboxContainer input:checked ~ * {
+  background: url(../img/checkbox-selected.png) no-repeat 0 center #fff;
+}
+.checkboxHolder.noBorderForLabel.noPad
+  .checkboxContainer.checkboxWithDesc
+  input:checked
+  ~ * {
+  background: url(../img/checkbox-selected.png) no-repeat 0 1em #fff;
+}
+.checkboxHolder.noBorderForLabel.noPad.forStraightForm {
+  float: left;
+}
+.checkboxHolder.noBorderForLabel.noPad.forStraightForm .checkboxContainer {
+  clear: none;
+  width: auto;
+  float: left;
+}
+.checkboxHolder.noBorderForLabel.noPad.forStraightForm
+  .checkboxContainer
+  label {
+  border: 1px solid transparent;
+  padding: 0.5em 1em 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.checkboxHolder.noBorderForLabel.noPad.forStraightForm + input {
+  display: inline-block;
+  width: auto;
+  float: left;
+  /* &:checked + label {
+                    background: url(../img/checkbox-selected.png) no-repeat 0.7em center #FFF; //$bgBlueIconColor;
+                    // color: #fff;
+                } */
+}
+.checkboxHolder .checkboxContainer {
+  clear: both;
+  width: 100%;
+}
+.checkboxHolder .checkboxContainer input[disabled] + label,
+.checkboxHolder .checkboxContainer input.disabled + label {
+  background: url(../img/checkbox-disabled.png) no-repeat 0.7em center white;
+  cursor: not-allowed;
+}
+.checkboxHolder .checkboxContainer label {
+  width: 100%;
+  display: block;
+  padding: 0.8em;
+  border: 1px solid rgba(51, 51, 51, 0.28);
+  font-size: 0.875em;
+  float: left;
+  margin: 0;
+  background: url(../img/checkbox.png) no-repeat 0.7em center #fff;
+  padding-left: 2.4em;
+  cursor: pointer;
+  border-top-width: 0;
+}
+.checkboxHolder .checkboxContainer.checkboxWithDesc label {
+  background: url(../img/checkbox.png) no-repeat 0.7em 1em #fff;
+}
+.checkboxHolder .checkboxContainer.checkboxWithDesc label .smallText {
+  font-weight: normal;
+}
+.checkboxHolder .checkboxContainer:first-child label {
+  border-radius: 0.3em 0.3em 0 0;
+  border-top-width: 1px;
+}
+.checkboxHolder .checkboxContainer:last-child label {
+  border-radius: 0 0 0.3em 0.3em;
+}
+.checkboxHolder .checkboxContainer input {
+  display: none;
+}
+.checkboxHolder .checkboxContainer.checkboxWithDesc input:checked ~ * {
+  background: url(../img/checkbox-selected.png) no-repeat 0.7em 1em #fff;
+}
+.checkboxHolder .checkboxContainer input:checked ~ * {
+  background: url(../img/checkbox-selected.png) no-repeat 0.7em center #fff;
+}
+
+.monthpicker_input {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  border: 1px solid #ccc;
+  line-height: 2.2em;
+}
+
+.monthpicker_selector {
+  position: absolute;
+  top: 100%;
+  background-color: #2c2c2c;
+  min-width: 173px;
+  box-shadow: 1px 2.5px 5px 0;
+  z-index: 555;
+}
+
+.posAbs {
+  position: absolute;
+}
+
+.padding0ForForm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.paddingForTableColoum {
+  padding-left: 0.1em !important;
+  padding-right: 0.1em !important;
+}
+
+textarea.form-control {
+  font-size: 1em;
+}
+textarea.form-control.lessPadLeft {
+  padding-left: 6px;
+}
+
+input.form-control {
+  padding: 0 0.8em;
+  height: 39px;
+  line-height: 39px;
+}
+input.form-control.noFull {
+  display: inline-block;
+  width: auto;
+}
+input.form-control.noFull-col {
+  display: inline-block;
+  width: inherit;
+}
+input.form-control.hasDatepicker {
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+input.form-control.whitebgS {
+  background-color: #fff;
+}
+
+select.form-control {
+  height: 39px;
+  padding-right: 1.2em;
+  font-size: 1em;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(../img/icons/dropdown-arrow.png) no-repeat right 0.8em
+    center/6px 6px;
+}
+select.form-control.noFull {
+  display: inline-block;
+  width: auto;
+}
+select.form-control.noFull-col {
+  display: inline-block;
+  width: inherit;
+}
+select.form-control.whitebgS {
+  background-color: #fff;
+}
+select.form-control[multiple] {
+  height: auto;
+  background: none;
+}
+
+select.form-control::-ms-expand {
+  display: none;
+}
+
+.inputGroupVariable {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.radioHolder {
+  margin-top: 1em;
+}
+.radioHolder.noBorderForLabel {
+  margin-top: 0;
+}
+.radioHolder.noBorderForLabel .radioContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.radioHolder.noBorderForLabel.forStraightForm {
+  float: left;
+}
+.radioHolder.noBorderForLabel.forStraightForm .radioContainer {
+  clear: none;
+  width: auto;
+  float: left;
+}
+.radioHolder.noBorderForLabel.forStraightForm .radioContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 1em 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.radioHolder.noBorderForLabel.forStraightForm + input {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+.radioHolder.noBorderForLabel.noPad {
+  margin-top: 0;
+}
+.radioHolder.noBorderForLabel.noPad .radioContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 2.2em;
+  display: inline-block;
+  width: initial;
+  background: url(../img/radio.png) no-repeat 0 center #fff;
+}
+.radioHolder.noBorderForLabel.noPad input:checked + label {
+  background: url(../img/radio-selected.png) no-repeat 0 center #fff;
+}
+.radioHolder.noBorderForLabel.noPad.forStraightForm {
+  float: left;
+}
+.radioHolder.noBorderForLabel.noPad.forStraightForm .radioContainer {
+  clear: none;
+  width: auto;
+  float: left;
+}
+.radioHolder.noBorderForLabel.noPad.forStraightForm .radioContainer label {
+  border: 1px solid transparent;
+  padding: 0.5em 1em 0.5em 2.8em;
+  display: inline-block;
+  width: initial;
+}
+.radioHolder.noBorderForLabel.noPad.forStraightForm + input {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+.radioHolder .radioContainer {
+  clear: both;
+  width: 100%;
+}
+.radioHolder .radioContainer label {
+  width: 100%;
+  display: block;
+  padding: 0.8em;
+  border: 1px solid rgba(51, 51, 51, 0.28);
+  font-size: 0.875em;
+  float: left;
+  margin: 0;
+  background: url(../img/radio.png) no-repeat 0.7em center #fff;
+  padding-left: 2.4em;
+  cursor: pointer;
+  border-top-width: 0;
+}
+.radioHolder .radioContainer:first-child label {
+  border-radius: 0.3em 0.3em 0 0;
+  border-top-width: 1px;
+}
+.radioHolder .radioContainer:last-child label {
+  border-radius: 0 0 0.3em 0.3em;
+}
+.radioHolder .radioContainer input {
+  display: none;
+}
+.radioHolder .radioContainer input:checked + label {
+  background: url(../img/radio-selected.png) no-repeat 0.7em center #fff;
+}
+
+.userLoginNameLogined {
+  text-align: right;
+  clear: both;
+  margin: 1.1em 0 1em;
+}
+
+.overflowXScroll {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.2em;
+}
+.overflowXScroll .table {
+  margin-bottom: 0;
+  max-width: 200%;
+}
+.overflowXScroll .table td {
+  min-width: 10em;
+}
+
+a.whiteColor {
+  color: #fff;
+}
+
+ul.smallAlpha {
+  list-style-type: lower-alpha;
+}
+
+.table-responsive.responsiveTable.table.customPaddingSmall > tbody > tr > td,
+.table-responsive.responsiveTable.table.customPaddingSmall > tbody > tr > th,
+.table-responsive.responsiveTable.table.customPaddingSmall > tfoot > tr > td,
+.table-responsive.responsiveTable.table.customPaddingSmall > tfoot > tr > th,
+.table-responsive.responsiveTable.table.customPaddingSmall > thead > tr > td,
+.table-responsive.responsiveTable.table.customPaddingSmall > thead > tr > th {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.responsiveTable.table.table-responsive tr th {
+  color: #fff;
+  background-color: #007ebb;
+  vertical-align: top;
+}
+.responsiveTable.table.table-responsive tr th .thHeading {
+  display: block;
+  word-wrap: break-word;
+}
+.responsiveTable.table.table-responsive tr th .glyphicon {
+  color: #fff;
+}
+.responsiveTable.table.table-responsive tr th .glyphicon.sorted {
+  color: #ef7800;
+}
+.responsiveTable.table.table-responsive tr th.width27 {
+  width: 27%;
+}
+.responsiveTable.table.table-responsive tr th.width13 {
+  width: 13%;
+}
+
+.responsiveTable.table.table-responsive tr td.theading {
+  color: #fff;
+  background-color: #007ebb;
+  vertical-align: top;
+}
+.responsiveTable.table.table-responsive tr td.theading .thHeading {
+  display: block;
+}
+.responsiveTable.table.table-responsive tr td.theading .glyphicon {
+  color: #fff;
+}
+.responsiveTable.table.table-responsive tr td.theading .glyphicon.sorted {
+  color: #ef7800;
+}
+.responsiveTable.table.table-responsive tr td.theading.width27 {
+  width: 27%;
+}
+.responsiveTable.table.table-responsive tr td.theading.width13 {
+  width: 13%;
+}
+
+.responsiveTable.table.table-responsive.responsiveTablePrint tbody tr,
+.responsiveTable.table.table-responsive.responsiveTablePrint
+  tbody
+  tr:nth-of-type(odd) {
+  background: #fff;
+}
+
+.responsiveTable.table.table-responsive tbody tr:nth-of-type(odd) {
+  background: #eee;
+}
+.responsiveTable.table.table-responsive tbody tr:nth-of-type(odd).greenBg {
+  background-color: #e6ffd0;
+}
+.responsiveTable.table.table-responsive tbody tr:nth-of-type(odd).yellowBg {
+  background-color: #fdfdc1;
+}
+
+.responsiveTable.table.table-responsive tbody tr.greenBg {
+  background-color: #e6ffd0;
+}
+
+.responsiveTable.table.table-responsive tbody tr.yellowBg {
+  background-color: #fdfdc1;
+}
+
+.responsiveTable.table.table-responsive tbody tr td.lightGrayBg {
+  background-color: #eee;
+}
+
+.width11Th {
+  width: 11%;
+}
+
+.loginForm {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5em 2em;
+  margin-bottom: 2.5em;
+  background-color: #fff;
+}
+
+.salesAppMenu {
+  margin-top: 3em;
+}
+.salesAppMenu .menuBtnHolder {
+  padding: 0;
+  margin-bottom: 1em;
+}
+.salesAppMenu .menuBtnHolder:nth-child(odd) {
+  padding-right: 1em;
+}
+.salesAppMenu .menuBtnHolder:nth-child(even) {
+  padding-left: 1em;
+}
+
+.input-group-addon {
+  height: 39px;
+}
+
+.orangeColor[data-toggle="tooltip"].glyphicon {
+  background-color: #007ebb;
+  color: #d9dee1;
+  border-radius: 50%;
+  font-size: 1.4em;
+}
+.orangeColor[data-toggle="tooltip"].glyphicon:before {
+  color: #d9dee1;
+  content: "\e086";
+}
+
+.submenuSetHolder {
+  margin: 0.8em 0 1.5em 0;
+}
+.submenuSetHolder.forAdminSub > ul > li {
+  border-right: 1px solid #ccc;
+}
+.submenuSetHolder.forAdminSub > ul > li:last-child {
+  border-right: 0px solid #ccc;
+}
+.submenuSetHolder.forAdminSub > ul > li > a {
+  padding: 0.4em 1em 0.4em 1em;
+}
+.submenuSetHolder.submenuSetHolderSeptr ul > li {
+  border-left: 1px solid #ccc;
+  padding-left: 1em;
+}
+.submenuSetHolder.submenuSetHolderSeptr ul > li:first-child {
+  border-left: 0px solid #ccc;
+  padding-left: 0em;
+}
+.submenuSetHolder > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.submenuSetHolder > ul > li {
+  display: block;
+  float: left;
+  position: relative;
+}
+.submenuSetHolder > ul > li.active > a {
+  color: #de0a15;
+}
+.submenuSetHolder > ul > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 0.4em 1em 0.4em 0;
+  font-size: 1em;
+  color: #555;
+}
+.submenuSetHolder > ul > li > a:hover {
+  text-decoration: none;
+  color: #de0a15;
+}
+.submenuSetHolder > ul > li > a img {
+  width: 6px;
+}
+.submenuSetHolder > ul > li ul {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 10em;
+  z-index: 5;
+  border: 1px solid #ddd;
+}
+.submenuSetHolder > ul > li ul li {
+  display: block;
+}
+.submenuSetHolder > ul > li ul li:last-child a {
+  border-bottom: 0px solid transparent;
+}
+.submenuSetHolder > ul > li ul li a {
+  padding: 0.35em 1em;
+  color: #555;
+  background-color: #fff;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.submenuSetHolder > ul > li ul li a:hover {
+  color: #fff;
+  background-color: #e40520;
+  text-decoration: none;
+}
+.submenuSetHolder > ul > li ul li.active a {
+  color: #fff;
+  background-color: #e40520;
+  text-decoration: none;
+}
+.submenuSetHolder > ul > li:hover ul {
+  display: block;
+}
+
+.ll-skin-latoja .ui-datepicker-header {
+  background-image: none;
+  background-color: #d9dee1;
+}
+
+.ulListNone {
+  list-style-type: none;
+}
+
+.paginationContainer > span {
+  margin-right: 1em;
+  line-height: 38px;
+  display: inline-block;
+}
+
+.paginationContainer > select {
+  width: auto;
+  display: inline-block;
+}
+
+.paginationHolder {
+  float: right;
+}
+.paginationHolder .pagination > li:first-child > input[type="button"] {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.paginationHolder .pagination > li:last-child > input[type="button"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.paginationHolder .pagination > li > input[type="button"] {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  outline: 0;
+}
+.paginationHolder .pagination > li > input[type="button"]:hover {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.mgRight3 {
+  padding-right: 3em !important;
+}
+
+.displayNone {
+  display: none;
+}
+
+.breakWord {
+  word-wrap: break-word;
+  white-space: initial;
+}
+
+.filesStack {
+  margin-top: 1em;
+  float: none;
+  padding: 0;
+}
+.filesStack ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.filesStack ul li {
+  display: block;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  padding: 0.35em 1em;
+}
+.filesStack ul li:first-child {
+  border-radius: 3px 3px 0 0;
+  border-top-width: 1px;
+}
+.filesStack ul li:last-child {
+  border-radius: 0 0 3px 3px;
+}
+.filesStack ul li a {
+  text-decoration: none;
+}
+.filesStack ul li a:hover {
+  text-decoration: none;
+}
+.filesStack ul li a.fileNameU {
+  float: left;
+  width: 86%;
+  word-wrap: break-word;
+}
+.filesStack ul li a.fileRemoveU {
+  float: right;
+}
+
+.supportingDocsContainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.supportingDocsContainer ul li {
+  display: block;
+  clear: both;
+  padding-bottom: 0.3em;
+}
+.supportingDocsContainer ul li img {
+  width: 24px;
+}
+
+.mgRight1 {
+  margin-right: 1em;
+}
+
+.MSP_paymentHolder .form-group {
+  margin-bottom: 0;
+}
+
+.MSP_paymentHolder .MSP_totalPrice {
+  font-size: 1.9em;
+  line-height: 1em;
+  padding-top: 0.1em;
+}
+
+.thanksBigText {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.captchaHolder .captchaImgContainer {
+  border: 1px solid #ddd;
+}
+.captchaHolder .captchaImgContainer img {
+  width: 100%;
+}
+
+.blueText {
+  color: #007ebb;
+}
+
+.romanUl {
+  list-style-type: lower-roman;
+}
+
+.termsTextOverflow {
+  height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.tableTdHeight45.onlyMobile,
+.tableTdHeight25.onlyMobile {
+  height: auto;
+}
+
+.tdheaderFMobile {
+  display: none;
+}
+
+.appointmentConfirmHolder.mgBtm1 {
+  margin-bottom: 1em;
+}
+
+.longRangeHolder.longRangeHolderCustom .stepsContainer li {
+  width: 25%;
+}
+
+.longRangeHolder.longRangeHolderCustom .stepsContainer li:first-child {
+  width: auto;
+  padding-right: 10.2%;
+  text-align: left;
+}
+
+.longRangeHolder.longRangeHolderCustom .stepsContainer li.noMargin {
+  width: auto;
+  float: right;
+  text-align: right;
+}
+
+.longRangeHolder.longRangeHolderCustom1 .stepsContainer li {
+  width: 33%;
+}
+
+.longRangeHolder.longRangeHolderCustom1 .stepsContainer li:first-child {
+  width: auto;
+  padding-right: 12.2%;
+  text-align: left;
+}
+
+.longRangeHolder.longRangeHolderCustom1 .stepsContainer li.noMargin {
+  width: auto;
+  float: right;
+  text-align: right;
+}
+
+.longRangeHolder.longRangeHolderCustom2 .stepsContainer li {
+  width: 50%;
+}
+
+.longRangeHolder.longRangeHolderCustom2 .stepsContainer li:first-child {
+  width: auto;
+  padding-right: 22%;
+  text-align: left;
+}
+
+.longRangeHolder.longRangeHolderCustom2 .stepsContainer li.noMargin {
+  width: auto;
+  float: right;
+  text-align: right;
+}
+
+.longRangeHolder .stepsContainer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.longRangeHolder .stepsContainer li {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  background-color: #fff;
+  border: 0px solid #d9dee1;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  z-index: 1;
+  font-size: 12px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.longRangeHolder .stepsContainer li a {
+  border-radius: 50%;
+  width: 2.8em;
+  height: 2.8em;
+  background-color: #fff;
+  border: 2px solid #d9dee1;
+  margin: 0 0 0 0;
+  padding: 0.15em;
+  float: none;
+  position: relative;
+  z-index: 1;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.longRangeHolder .stepsContainer li.stepCompleted a,
+.longRangeHolder .stepsContainer li.stepActive a {
+  border: 2px solid #e40520;
+}
+
+.longRangeHolder .stepsContainer li.stepsBackLine {
+  border-radius: 0;
+  height: 2px;
+  background-color: #908e8e;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  float: none;
+  border: 0 solid transparent;
+  top: 24%;
+  margin-top: -1px;
+  width: 100%;
+  z-index: 0;
+}
+
+.longRangeHolder .stepsContainer li.noMargin {
+  margin: 0;
+}
+
+.longRangeHolder .stepsContainer li a span.circle {
+  border-radius: 50%;
+  width: 2.15em;
+  height: 2.15em;
+  background-color: #d9dee1;
+  color: #c7cacd;
+  display: block;
+  text-align: center;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: default;
+}
+
+.longRangeHolder .stepsContainer li.stepActive a span.circle {
+  background-color: #908e8e;
+  color: #fff;
+}
+
+.longRangeHolder .stepsContainer li.stepCompleted a span.circle {
+  background-color: #b3bbc1;
+  color: #9a9b9d;
+}
+
+.longRangeHolder .stepsContainer li a:hover {
+  text-decoration: none;
+}
+
+.longRangeHolder .stepsContainer li a span {
+  font-size: 1.5em;
+}
+.longRangeHolder .stepsContainer li a span.stepText {
+  color: #333;
+  display: block;
+  clear: both;
+}
+
+.hideTdDeskTop {
+  display: none;
+}
+
+.tPrice {
+  line-height: 2.2em;
+  float: left;
+  margin-right: 0.6em;
+}
+
+.hdlAdminMenu a {
+  font-weight: bold;
+}
+.hdlAdminMenu a span.countN {
+  color: #555;
+}
+
+/* ********************************** ***************************** */
+/* ********************************** Intranet CSS ***************************** */
+/* ********************************** ***************************** */
+.adminAdditionalMenuLeft {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.adminAdditionalMenuLeft li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+.adminAdditionalMenuLeft li:last-child {
+  border-bottom: 0px solid #ddd;
+}
+.adminAdditionalMenuLeft li a {
+  display: block;
+  padding: 1em 1em;
+  background-color: #fff;
+}
+.adminAdditionalMenuLeft li a:hover {
+  text-decoration: none;
+}
+
+.cardOnly {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.projectContainerBox > a {
+  position: relative;
+  padding-right: 3em;
+}
+.projectContainerBox > a span {
+  position: absolute;
+  right: 1em;
+  top: 0.8em;
+}
+.projectContainerBox > a:hover {
+  padding-right: 3em;
+}
+
+.mceHolder .mce-btn-group .mce-btn {
+  float: left;
+}
+
+.control-labelA {
+  padding-top: 0.3em;
+}
+
+.fileSelectorHolder {
+  position: relative;
+}
+.fileSelectorHolder .fileFakeBtn.btn {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.fileSelectorHolder .fileInput {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.max3Rows {
+  max-height: 225px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 1em;
+}
+
+.max3Rows1 {
+  max-height: 251px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 1em;
+}
+
+.borderedDiv {
+  border: 1px solid #ddd;
+}
+
+.romanList {
+  padding-left: 1.2em;
+  list-style-type: lower-roman;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.maxWidth10 {
+  max-width: 10%;
+  width: 10%;
+  min-width: 10%;
+}
+
+.maxWidth7 {
+  max-width: 7%;
+  width: 7%;
+  min-width: 7%;
+}
+
+.maxWidth15 {
+  max-width: 15%;
+  width: 15%;
+  min-width: 15%;
+}
+
+.maxWidth6 {
+  max-width: 6%;
+  width: 6%;
+  min-width: 6%;
+}
+
+.maxWidth13 {
+  max-width: 13%;
+  width: 13%;
+  min-width: 13%;
+}
+
+.maxWidth16 {
+  max-width: 16%;
+  width: 16%;
+  min-width: 16%;
+}
+
+.maxWidth2 {
+  max-width: 2%;
+  width: 2%;
+  min-width: 2%;
+}
+
+.maxWidth5 {
+  max-width: 5%;
+  width: 5%;
+  min-width: 5%;
+}
+
+.quesListUl {
+  list-style-type: none;
+  margin: 0 0 1.5em 0;
+  padding-left: 0;
+}
+
+.pmiTableForOnePage .table > tbody > tr > td,
+.pmiTableForOnePage .table > tbody > tr > th,
+.pmiTableForOnePage .table > tfoot > tr > td,
+.pmiTableForOnePage .table > tfoot > tr > th,
+.pmiTableForOnePage .table > thead > tr > td,
+.pmiTableForOnePage .table > thead > tr > th {
+  padding: 4px;
+  font-size: 0.9em;
+}
+
+table.floatThead-table {
+  border-top: none;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+a.underline,
+.underline {
+  text-decoration: underline;
+}
+
+.cssPanel-custom .panel-heading h4::after {
+  color: #007ebb;
+  font-size: 1.2em;
+  content: "\e082";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  float: right;
+}
+
+.cssPanel-custom .panel-heading.collapsed h4::after {
+  float: right;
+  color: #007ebb;
+  font-size: 1.2em;
+  content: "\e081";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+  .logoImgUra {
+    width: 310px;
+    height: 75px;
+    background: url("../img/logo/logo_ura_hi-res.png") no-repeat top left/300px
+      transparent;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hideTdDeskTop {
+    display: initial;
+  }
+  .width11Th {
+    width: auto;
+  }
+  .tableTdHeight45 {
+    height: 4.5em;
+  }
+  .tableTdHeight45.onlyMobile {
+    height: 4.5em;
+  }
+  .tableTdHeight25 {
+    height: 2.5em;
+  }
+  .tableTdHeight25.onlyMobile {
+    height: 2.5em;
+  }
+  .responsiveTable.table.table-responsive {
+    border: 0;
+  }
+  .responsiveTable.table.table-responsive tr {
+    border-bottom: 0;
+  }
+  .responsiveTable.table.table-responsive tr:first-child {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  .responsiveTable.table.table-responsive tr th {
+    color: #fff;
+    background-color: #007ebb;
+    display: none;
+  }
+  .responsiveTable.table.table-responsive tr th .thHeading {
+    display: block;
+  }
+  .responsiveTable.table.table-responsive tr th.width27 {
+    width: auto;
+  }
+  .responsiveTable.table.table-responsive tr th.width13 {
+    width: auto;
+  }
+  .responsiveTable.table.table-responsive tr td {
+    display: block;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 11.5em;
+    line-height: 1em;
+    position: relative;
+  }
+  .responsiveTable.table.table-responsive tr td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 10.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+  }
+  .responsiveTable.table.table-responsive tr td.noDataForTh:before {
+    content: "";
+  }
+  .responsiveTable.table.table-responsive tr td:last-child {
+    min-height: 45px;
+  }
+  .responsiveTable.table.table-responsive tr td .tdheaderFMobile {
+    font-weight: bold;
+    width: 10.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+    display: block;
+  }
+  .responsiveTable.table.table-responsive tr td .hideDT {
+    display: none;
+  }
+  .responsiveTable.table.table-responsive thead tr {
+    display: none;
+  }
+  .responsiveTable.table.table-responsive tbody tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em;
+    display: block;
+  }
+  .responsiveTable.table.table-responsive tbody tr:first-child {
+    border-top-width: 1px;
+  }
+  .responsiveTable.table.table-responsive tbody tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  .pmiTableForOnePage > div {
+    display: none;
+  }
+  .pmiTableForOnePage
+    > table.table.table-responsive.table-striped.table-bordered.responsiveTable {
+    min-width: initial !important;
+  }
+  table.table:not(.noShow) {
+    border: 0;
+  }
+  table.table:not(.noShow) tr {
+    border-bottom: 0;
+  }
+  table.table:not(.noShow) tr:first-child {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  table.table:not(.noShow) tr > th {
+    color: #fff;
+    display: none;
+  }
+  table.table:not(.noShow) tr > th .thHeading {
+    display: block;
+  }
+  table.table:not(.noShow) tr > td {
+    display: block;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 1.5em; /*11.5em*/
+    position: relative;
+    line-height: 1em;
+  }
+  table.table:not(.noShow) tr > td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 10.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+  }
+  table.table:not(.noShow) tr > td.noDataForTh:before {
+    content: "";
+  }
+  table.table:not(.noShow) tr > td:last-child {
+    min-height: 45px;
+  }
+  table.table:not(.noShow) tr > td .tdheaderFMobile {
+    font-weight: bold;
+    width: 10.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+    display: block;
+  }
+  table.table:not(.noShow) tr > td .hideDT {
+    display: none;
+  }
+  table.table:not(.noShow) thead tr {
+    display: none;
+  }
+  table.table:not(.noShow) tbody tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em;
+    display: block;
+  }
+  table.table:not(.noShow) tbody tr td {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 0px solid #ddd;
+  }
+  table.table:not(.noShow) tbody tr:first-child {
+    border-top-width: 1px;
+  }
+  table.table:not(.noShow) tbody tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  .padding0.forDesktop {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .paddingForTableColoum {
+    padding-left: 11.5em !important;
+    padding-right: 11.5em !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .inputGroupVariable {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+  }
+  .hideOnDesktop,
+  .hideOnDesktop.in.collapse {
+    display: none;
+  }
+  .showOnDesktop {
+    display: block;
+  }
+  .uraLogoHolder a img {
+    max-height: 60px;
+    max-width: 200px;
+  }
+  .paymentContainer {
+    text-align: center;
+  }
+  .paymentContainer.paymentContainerNew > .col-xs-12.col-sm-2 {
+    width: 20%;
+  }
+}
+
+.whiteArrowMenu {
+  width: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+  .responsiveTable.table.table-responsive {
+    border: 0;
+  }
+  .responsiveTable.table.table-responsive tr {
+    border-bottom: 0;
+  }
+  .responsiveTable.table.table-responsive tr:first-child {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  .responsiveTable.table.table-responsive tr th {
+    color: #fff;
+    background-color: #007ebb;
+    display: none;
+  }
+  .responsiveTable.table.table-responsive tr th .thHeading {
+    display: block;
+  }
+  .responsiveTable.table.table-responsive tr td {
+    display: block;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 8.5em;
+    position: relative;
+    line-height: 1em;
+  }
+  .responsiveTable.table.table-responsive tr td:before {
+    /* content: attr(data-th) ": "; */
+    font-weight: bold;
+    width: 7.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+  }
+  .responsiveTable.table.table-responsive tr td.noDataForTh:before {
+    content: "";
+  }
+  .responsiveTable.table.table-responsive tr td:last-child {
+    min-height: 55px;
+  }
+  .responsiveTable.table.table-responsive tr td .tdheaderFMobile {
+    font-weight: bold;
+    width: 7.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+    display: block;
+  }
+  .responsiveTable.table.table-responsive thead tr {
+    display: none;
+  }
+  .responsiveTable.table.table-responsive tbody tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em;
+    display: block;
+  }
+  .responsiveTable.table.table-responsive tbody tr:first-child {
+    border-top-width: 1px;
+  }
+  .responsiveTable.table.table-responsive tbody tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  table.table {
+    border: 0;
+  }
+  table.table tr {
+    border-bottom: 0;
+  }
+  table.table tr:first-child {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+  table.table tr > th {
+    color: #fff;
+    display: none;
+  }
+  table.table tr > th .thHeading {
+    display: block;
+  }
+  table.table tr > td {
+    display: block;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 8.5em;
+    position: relative;
+    line-height: 1em;
+  }
+  table.table tr > td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 7.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+  }
+  table.table tr > td.noDataForTh:before {
+    content: "";
+  }
+  table.table tr > td:last-child {
+    min-height: 55px;
+  }
+  table.table tr > td .tdheaderFMobile {
+    font-weight: bold;
+    width: 7.5em;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    line-height: 0.9em;
+    display: block;
+  }
+  table.table thead tr {
+    display: none;
+  }
+  table.table tbody tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em;
+    display: block;
+  }
+  table.table tbody tr td {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 0px solid #ddd;
+  }
+  table.table tbody tr:first-child {
+    border-top-width: 1px;
+  }
+  table.table tbody tr:nth-of-type(odd) {
+    background: #eee;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer .footerLinksHolder {
+    clear: both;
+    width: 100%;
+  }
+  .footer .footerLinksHolder .footerLinksContainer {
+    background: none transparent;
+    padding: 1em 0 0.8em;
+    position: relative;
+  }
+  .footer .footerLinksHolder .footerLinksContainer a.footerLink {
+    font-size: 1em;
+    color: #555;
+    position: relative;
+    border-bottom: 0px solid #555;
+  }
+  .footer .copyrightTextHolder {
+    text-align: center;
+    width: 100%;
+  }
+  .footer .copyrightTextHolder .copyrightText {
+    font-size: 1em;
+    display: block;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+  .pageholder {
+    position: relative;
+    min-height: 100%;
+    /*padding-bottom: 140px; */
+  }
+  .uraLogoTagline {
+    display: none;
+  }
+  .submenuSetHolder {
+    display: none;
+  }
+  .submenuSetHolder.forAdminSub {
+    display: block;
+  }
+  .padding0M {
+    padding: 0 !important;
+  }
+  .paddingBtm1M {
+    padding-bottom: 1em !important;
+  }
+  .paddingTop1M {
+    padding-top: 1em !important;
+  }
+  .padding0.paddingLeft {
+    padding-left: 0;
+  }
+  .padding0.paddingRight {
+    padding-right: 0;
+  }
+  .paginationHolder {
+    float: none;
+    text-align: center;
+  }
+  .paginationContainer {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .paginationContainer > span {
+    margin-right: 1em;
+    line-height: 38px;
+    display: inline-block;
+  }
+  .paginationContainer > select {
+    width: auto;
+    display: inline-block;
+  }
+  .salesAppMenu .menuBtnHolder {
+    padding: 0;
+    margin-bottom: 1em;
+  }
+  .salesAppMenu .menuBtnHolder:nth-child(odd) {
+    padding-right: 0;
+  }
+  .salesAppMenu .menuBtnHolder:nth-child(even) {
+    padding-left: 0;
+  }
+  .mgbtm5 {
+    margin-bottom: 0.5em !important;
+  }
+  .tabsHolder {
+    margin-top: 1.5em;
+  }
+  .tabsHolder .tabsHeading {
+    display: block;
+    border-bottom: 1px solid #ddd;
+  }
+  .tabsHolder .nav-tabs {
+    border-bottom: 0 solid transparent;
+  }
+  .tabsHolder .nav-tabs li {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  .tabsHolder .nav-tabs li:first-child {
+    margin-left: 0;
+  }
+  .tabsHolder .nav-tabs li.active:first-child {
+    cursor: pointer;
+  }
+  .tabsHolder .nav-tabs li.active:first-child a {
+    border-radius: 4px;
+  }
+  .tabsHolder .nav-tabs li.active {
+    cursor: pointer;
+  }
+  .tabsHolder .nav-tabs li.active a {
+    border-bottom-color: #007ebb;
+    border-radius: 4px;
+  }
+  .tabsHolder .nav-tabs li:first-child a {
+    border-radius: 4px;
+  }
+  .tabsHolder .nav-tabs li a {
+    margin-right: 0;
+    border-radius: 4px;
+    border-bottom-color: #d9dee1;
+  }
+  .tabsHolder .tab-content .tab-pane {
+    padding: 1em 1em 0 1em;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .titleHolder {
+    background-color: #f4f5f5;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+  }
+  .menuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: static;
+    top: 100%;
+    right: 0;
+    background-color: #f4f5f5;
+  }
+  .menuList li {
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .menuList li a {
+    color: #3c3c3c;
+    text-transform: capitalize;
+    display: block;
+    padding: 0.7em 1em;
+    text-decoration: none;
+  }
+  .menuList li a:hover {
+    text-decoration: none;
+    color: #333;
+  }
+  .menuList li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #a20009;
+  }
+  .menuList li ul li {
+    border-top: 1px solid #fff;
+    border-bottom: 0px solid #fff;
+  }
+  .menuList li ul li a {
+    padding-left: 1.8em;
+  }
+  .hideOnMobile,
+  .hideOnMobile.collapse.in {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+  .mandatoryContent {
+    font-size: 0.875em;
+  }
+  .borderRight1 {
+    border-color: transparent;
+  }
+  .btn {
+    width: 100%;
+    margin-bottom: 0.7em;
+  }
+  .appointmentConfirmHolder {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+  }
+  .appointmentConfirmHolder .appointmentConfirmContainer {
+    margin-top: 1.7em;
+  }
+  .appointmentConfirmHolder .appointmentConfirmContainer.noMgTop {
+    margin-top: 0;
+  }
+  .appointmentConfirmHolder .appointmentOkIcon {
+    font-size: 1.5em;
+    color: #59b904;
+    vertical-align: middle;
+    float: left;
+    margin-right: 0.2em;
+    display: none;
+  }
+  .appointmentConfirmHolder .appTime {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+  }
+  .appointmentConfirmHolder .appConfirmText {
+    /* font-size: 1.3em;
+            line-height: 1.7em;
+            float: left; */
+    font-size: 1.3em;
+    line-height: 1.3em;
+    float: left;
+    padding-left: 2em;
+    position: relative;
+    margin-bottom: 0.8em;
+  }
+  .appointmentConfirmHolder .appConfirmText.smallFont {
+    font-size: 1.1em;
+  }
+  .appointmentConfirmHolder .appConfirmText:before {
+    content: "\e084";
+    font-family: "Glyphicons Halflings";
+    color: #59b904;
+  }
+  .appointmentConfirmHolder .appConfirmText.appNotConfirmedH:before {
+    content: "\e083";
+    color: #de0a15;
+  }
+  .appointmentConfirmHolder .appConfirmText.appConfirmTextInfo:before {
+    content: "\e086";
+    color: #007ebb;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .pageholder {
+    /*padding-bottom: 160px;*/
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .pageholder {
+    /*padding-bottom: 200px;*/
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .pageholder {
+    /*padding-bottom: 250px;*/
+  }
+}
+
+@media print {
+  .stepsHolder,
+  .footer,
+  .menuHolder,
+  .menuList,
+  .btn,
+  .printNone,
+  .header-bg {
+    display: none !important;
+  }
+  a {
+    text-decoration: none !important;
+    border-color: #000 !important;
+  }
+  #back-to-top.show {
+    display: none !important;
+  }
+  .collapse {
+    display: block;
+    height: auto !important;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .singaporeLogo a img {
+    display: none;
+  }
+  .showInPrint {
+    display: inline-block !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer.checkboxWithDesc
+    input[disabled]
+    + label,
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer.checkboxWithDesc
+    input.disabled
+    + label {
+    background: url(../img/checkbox-disabled.png) no-repeat 0 center white !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer.checkboxWithDesc
+    label {
+    background: url(../img/checkbox.png) no-repeat 0 1em #fff !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer
+    input[disabled]
+    + label,
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer
+    input.disabled
+    + label {
+    background: url(../img/checkbox-disabled.png) no-repeat 0 center white !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint .checkboxContainer label {
+    background: url(../img/checkbox.png) no-repeat 0 center #fff !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer
+    input:checked
+    + label {
+    background: url(../img/checkbox-selected.png) no-repeat 0 center #fff !important;
+  }
+  .checkboxHolder.noBorderForLabel.showInPrint
+    .checkboxContainer.checkboxWithDesc
+    input:checked
+    + label {
+    background: url(../img/checkbox-selected.png) no-repeat 0 1em #fff !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer.radioWithDesc
+    input[disabled]
+    + label,
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer.radioWithDesc
+    input.disabled
+    + label {
+    background: url(../img/radio-disabled.png) no-repeat 0 center white !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer.radioWithDesc
+    label {
+    background: url(../img/radio.png) no-repeat 0 1em #fff !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer
+    input[disabled]
+    + label,
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer
+    input.disabled
+    + label {
+    background: url(../img/radio-disabled.png) no-repeat 0 center white !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint .radioContainer label {
+    background: url(../img/radio.png) no-repeat 0 center #fff !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer
+    input:checked
+    + label {
+    background: url(../img/radio-selected.png) no-repeat 0 center #fff !important;
+  }
+  .radioHolder.noBorderForLabel.showInPrint
+    .radioContainer.radioWithDesc
+    input:checked
+    + label {
+    background: url(../img/radio-selected.png) no-repeat 0 1em #fff !important;
+  }
+}
+
+.mgTop2 {
+  margin-top: 2em;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers:
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.containerFullWidth:before,
+.salesAppMenu:before,
+.submenuSetHolder:before,
+.filesStack ul li:before,
+.clearfix:after,
+.containerFullWidth:after,
+.salesAppMenu:after,
+.submenuSetHolder:after,
+.filesStack ul li:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after,
+.containerFullWidth:after,
+.salesAppMenu:after,
+.submenuSetHolder:after,
+.filesStack ul li:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+.printOnly {
+  display: none;
+}
+
+.overflowXScrollReport {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.2em;
+}
+
+.overflowXScrollReport .table {
+  margin-bottom: 0;
+  max-width: 200%;
+}
