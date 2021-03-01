@@ -1,5 +1,3 @@
-# Indigo Design System
-
 Indigo Design System includes a library UI components for the next digital services. This repository is for the design system code itself.
 
 The design system is built on top of Singapore Design System (SGDS).
